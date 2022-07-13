@@ -23,7 +23,7 @@
           </group>
           <notebook>
             <page string="Characterization Details">
-              <field name="fuel_characterization_detail_ids" widget="many2many" options="{'no_create': True}"/>
+              <field name="fuel_characterization_detail_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly': True}"/>
             </page>
           </notebook>
         </sheet>
