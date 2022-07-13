@@ -30,15 +30,11 @@ class Characterization(models.Model):
         depends=['fuel_sensor_id']
     )
 
-    size = fields.Float(
-        digits=(16, 9),
-        string=_('Size')
-    )  
-
-    volts = fields.Float(
-        digits=(16, 9),
-        string=_('Volts')
-    )      
+    fuel_characterization_detail_ids = fields.One2many(
+        comodel_name="lmm.characterization_detail",
+        inverse_name="fuel_characterization_id",
+        string=_("Characterization"),
+    )
 
     @api.model
     def create(self, vals):

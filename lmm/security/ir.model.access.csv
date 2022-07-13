@@ -35,6 +35,10 @@ characterization_manager,Characterization Manager,model_lmm_characterization,lmm
 characterization_read_all,Characterization User,model_lmm_characterization,lmm_group_user,1,1,1,0
 characterization_maintainer,Characterization Maintainer,model_lmm_characterization,lmm_group_maintainer,1,0,0,0
 characterization_guest,Characterization Reader,model_lmm_characterization,lmm_group_reader,1,0,0,0
+characterization_detail_manager,Characterization Detail Manager,model_lmm_characterization_detail,lmm_group_manager,1,1,1,1
+characterization_detail_read_all,Characterization Detail User,model_lmm_characterization_detail,lmm_group_user,1,1,1,0
+characterization_detail_maintainer,Characterization Detail Maintainer,model_lmm_characterization_detail,lmm_group_maintainer,1,0,0,0
+characterization_detail_guest,Characterization Detail Reader,model_lmm_characterization_detail,lmm_group_reader,1,0,0,0
 calibration_manager,Calibration Manager,model_lmm_calibration,lmm_group_manager,1,1,1,1
 calibration_read_all,Calibration User,model_lmm_calibration,lmm_group_user,1,1,1,0
 calibration_maintainer,Calibration Maintainer,model_lmm_calibration,lmm_group_maintainer,1,0,0,0

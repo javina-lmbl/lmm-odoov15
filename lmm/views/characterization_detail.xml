@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_characterization_detail" model="ir.sequence">
+    <field name="name">characterization_detail Sequence</field>
+    <field name="code">lmm.characterization_detail</field>
+    <field name="prefix">CTD</field>
+    <field name="padding">20</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_characterization_detail_form_view">
+    <field name="name">Characterization detail Form</field>
+    <field name="model">lmm.characterization_detail</field>
+    <field name="arch" type="xml">
+      <form string="Characterization Detail Form">
+        <header>
+        </header>
+        <sheet>
+          <group>                        
+              <field name="name"/>
+              <field name="fuel_characterization_id"/>
+              <field name="size"/>
+              <field name="volts"/>            
+          </group>        
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_characterization_detail_search_view">
+    <field name="name">characterization_detail Search</field>
+    <field name="model">lmm.characterization_detail</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="fuel_characterization_id"/>
+        <field name="size"/>
+        <field name="volts"/>       
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_characterization_detail_tree_view">
+    <field name="name">characterization_detail Tree</field>
+    <field name="model">lmm.characterization_detail</field>
+    <field name="arch" type="xml">
+      <tree string="characterization_details Tree">
+        <field name="name"/>
+        <field name="fuel_characterization_id"/>
+        <field name="size"/>
+        <field name="volts"/>        
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_characterization_detail_list_action">
+    <field name="name">characterization_details</field>
+    <field name="res_model">lmm.characterization_detail</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="characterization_detail_menu"
+          name="Characterization Details"
+          parent="fuel_characterization_section_menu"
+          action="lmm_characterization_detail_list_action"
+          sequence="2"
+  />
+</odoo>

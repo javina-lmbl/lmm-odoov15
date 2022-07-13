@@ -6,6 +6,7 @@ from . import device
 from . import platforms_list
 from . import vehicle_type_list
 from . import fuel_characterization
+from . import fuel_characterization_detail
 from . import fuel_tank
 from . import fuel_sensor
 from . import vehicle

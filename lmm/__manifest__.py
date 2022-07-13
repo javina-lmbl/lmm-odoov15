@@ -28,6 +28,7 @@
         'views/platforms_list.xml',
         'views/vehicle_type_list.xml',
         'views/characterization.xml',
+        'views/characterization_detail.xml',
         'views/fuel_tank.xml',
         'views/fuel_sensor.xml',
         'views/vehicle.xml',
