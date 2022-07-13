@@ -1,0 +1,2821 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* lmm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-05 16:02+0000\n"
+"PO-Revision-Date: 2022-07-05 16:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__100kb
+msgid "100KB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__100mb
+msgid "100MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__10gb
+msgid "10GB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__10mb
+msgid "10MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__term__12
+msgid "12"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__warranty_term__12
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__12
+msgid "12 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "12 months"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__15mb
+msgid "15MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__term__18
+msgid "18"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__18
+msgid "18 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "18 months"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__1gb
+msgid "1GB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__1mb
+msgid "1MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__20kb
+msgid "20KB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__term__24
+msgid "24"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__24
+msgid "24 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "24 months"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__2mb
+msgid "2MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__36
+msgid "36 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "36 months"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__3gb
+msgid "3GB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__3mb
+msgid "3MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__500mb
+msgid "500MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__5gb
+msgid "5GB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__plan__5mb
+msgid "5MB"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__att
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "ATT"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
+#: model:ir.actions.act_window,name:lmm.lmm_accessory_list_action
+#: model:ir.ui.menu,name:lmm.lmm_accessory_menu
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+#, python-format
+msgid "Accessories"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Accessories Count"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_tree_view
+msgid "Accessories Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_accessory
+msgid "Accessories module"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessories_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessory_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessories_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessory_ids
+msgid "Accessorios"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+msgid "Accessory Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+msgid "Accessory Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/account.py:0
+#, python-format
+msgid "Account"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Activation Date"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0 code:addons/lmm/models/vehicle.py:0
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__active
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__active
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__active
+#, python-format
+msgid "Active"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__active
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__active
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__active
+msgid "Activo"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.platform_list_search_view
+msgid "Activos"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration_results.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__adc
+#, python-format
+msgid "Adc"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__description
+msgid "Add a note about this vehicle"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__amorphous
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__amorphous
+msgid "Amorfo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__client_id
+msgid "Asignada a"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__device_id
+msgid "Asignado a"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.lmm_menu
+msgid "Assets"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Assigned To"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Assigned to"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__year
+msgid "Año"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Backup"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__drop
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__drop
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__drop
+msgid "Baja"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "Belongs to Vehicle"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Borrowed"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Brand"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__calibration_id
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__calibrator
+msgid "Calibración"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/calibration_results.py:0
+#: model:ir.model,name:lmm.model_lmm_calibration
+#: model:ir.ui.menu,name:lmm.fuel_calibration_menu
+#: model:ir.ui.menu,name:lmm.lmm_calibration_menu
+#, python-format
+msgid "Calibration"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+msgid "Calibration Form"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model,name:lmm.model_lmm_calibration_results
+#: model:ir.ui.menu,name:lmm.fuel_calibration_results_menu
+#, python-format
+msgid "Calibration Results"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#, python-format
+msgid "Calibration Results Count"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_calibration_results_list_action
+msgid "Calibration results"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__cancelled
+msgid "Cancelado"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Cancelled"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__characterizartion
+msgid "Caracterización"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__cell_chip_id
+#, python-format
+msgid "Cell Chip Number"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.cell_chips_menu
+msgid "Cell Chips"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_cell_chip
+msgid "Cell Chips model"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__cell_chip_owner_id
+#, python-format
+msgid "Cellchip Owner"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model,name:lmm.model_lmm_characterization
+#: model:ir.ui.menu,name:lmm.characterization_menu
+#, python-format
+msgid "Characterization"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_form_view
+msgid "Characterization Form"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_characterization_list_action
+msgid "Characterizations"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vin_sn
+#, python-format
+msgid "Chassis Number"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
+msgid "Chatter Messages"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__cierto
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Cierto"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__ciertot
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "CiertoT"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Client"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__client_id
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
+msgid "Cliente"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_color
+#, python-format
+msgid "Color"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__fuel
+msgid "Combustible"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__comodato
+#, python-format
+msgid "Comodato"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.lmm_configuration_menu
+msgid "Configurations"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__courtesy
+msgid "Cortesía"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Courtesy"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
+msgid "Data"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Dealer"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__demo
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__demo
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__demo
+#, python-format
+msgid "Demo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_fuel_test_samples
+msgid "Description"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__uninstalled
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__uninstalled
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__uninstalled
+msgid "Desinstalado"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+msgid "Details"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+#, python-format
+msgid "Device"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+msgid "Device Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Device PIN"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_device_list_action
+#: model:ir.ui.menu,name:lmm.lmm_devices_menu
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+msgid "Devices"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Devices Count"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+msgid "Devices Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_tree_view
+msgid "Devices Tree"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "Diameter"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__diff
+#, python-format
+msgid "Diff"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__name
+msgid "Dispositivo GPS"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__device_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__devices_count
+msgid "Dispositivos"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__device_ids
+msgid "Dispositivos GPS"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__dealer_id
+msgid "Distribuidor"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__diameter
+msgid "Diámetro"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Drop"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__client_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__client_id
+msgid "Dueño"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__gasket
+msgid "Empaque"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__in_repair
+msgid "En Reparación"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "End Forced Plan Date"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__status
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__operative_status
+msgid "Estado"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
+msgid "Estatus"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__operative_status
+msgid "Estatus Operativo"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__external
+#, python-format
+msgid "External"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__provider_invoice
+msgid "Factura de Proveedor"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Fecha Compra"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+msgid "Fecha Instalación"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activation_date
+msgid "Fecha de Activación"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status_date
+msgid "Fecha de Estatus"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__purchase_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__purchase_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__purchase_date
+msgid "Fecha de compra"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__installation_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__installation_date
+msgid "Fecha de instalación"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+msgid "Fin de Garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_end_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_end_date
+msgid "Fin de garantñia"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__end_forced_plan_date
+msgid "Fin de plan forsozo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_device__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0 code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "For Installing"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0 model:ir.ui.menu,name:lmm.lmm_fuel_menu
+#, python-format
+msgid "Fuel"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_count
+#, python-format
+msgid "Fuel Samples Count"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model,name:lmm.model_lmm_fuel_sensor
+#, python-format
+msgid "Fuel Sensor"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
+msgid "Fuel Sensor Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
+msgid "Fuel Sensor Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "Fuel Sensor Installed"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_sensor_list_action
+#: model:ir.ui.menu,name:lmm.fuel_sensor_menu
+msgid "Fuel Sensors"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_tank_list_action
+#, python-format
+msgid "Fuel Tank"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
+msgid "Fuel Tank Form"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "Fuel Tank Id"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
+msgid "Fuel Tank Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.ui.menu,name:lmm.fuel_tank_menu
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+#, python-format
+msgid "Fuel Tanks"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Fuel Tanks Count"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_test_id
+#, python-format
+msgid "Fuel Test"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__name
+#, python-format
+msgid "Fuel Test Sample"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__name
+#, python-format
+msgid "Fuel Tests"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_fuel_test
+msgid "Fuel Tests Module"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
+msgid "Fuel test Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_sample_form_view
+msgid "Fuel test sample Form"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_test_sample_list_action
+msgid "Fuel test samples"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_sample_tree_view
+msgid "Fuel test samples Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_test_list_action
+msgid "Fuel tests"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_tree_view
+msgid "Fuel tests Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__out_of_service
+msgid "Fuera de Servicio"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+#, python-format
+msgid "GPS Device"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__device_id
+msgid "GPS Device where the cell chip is on."
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "GPS Devices"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "Gasket"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.platform_list_form_view
+msgid "Gps Platform list Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
+msgid "Group By"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__hibernate
+#, python-format
+msgid "Hibernate"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__iccid
+#, python-format
+msgid "ICCID"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__id
+msgid "ID"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__idf
+#, python-format
+msgid "IDF"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__imei
+#, python-format
+msgid "IMEI"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_device__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+msgid "Images"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__img1
+#, python-format
+msgid "Img 1"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__img2
+#, python-format
+msgid "Img 2"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__img3
+#, python-format
+msgid "Img 3"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "In Repair"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Inactive"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__inactive
+msgid "Inactivo"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_sample_form_view
+msgid "Info"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_start_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_start_date
+msgid "Inicio de Garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__installed
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__installed
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__installed
+msgid "Instalado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__vehicle_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__device_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__vehicle_id
+msgid "Instalado en"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Installation Date"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+#, python-format
+msgid "Installed"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/account.py:0
+#: code:addons/lmm/models/cell_chip.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Installed On"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#: code:addons/lmm/models/calibration_results.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__name
+#, python-format
+msgid "Internal Id"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__inventory
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__inventory
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__inventory
+msgid "Inventario"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Inventory"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__iusacell
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Iusacell"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__pattern_jug
+msgid "Jarra Patrón"
+msgstr ""
+
+#. module: lmm
+#: model:ir.module.category,name:lmm.module_lmm_category
+#: model:ir.ui.menu,name:lmm.main_lmm_menu
+msgid "LMM"
+msgstr ""
+
+#. module: lmm
+#: model:res.groups,name:lmm.lmm_group_maintainer
+msgid "LMM / Maintainer"
+msgstr ""
+
+#. module: lmm
+#: model:res.groups,name:lmm.lmm_group_manager
+msgid "LMM / Manager"
+msgstr ""
+
+#. module: lmm
+#: model:res.groups,name:lmm.lmm_group_reader
+msgid "LMM / Reader"
+msgstr ""
+
+#. module: lmm
+#: model:res.groups,name:lmm.lmm_group_user
+msgid "LMM / User"
+msgstr ""
+
+#. module: lmm
+#: model:res.groups,name:lmm.lmm_group_wizard_manager
+msgid "LMM / Wizards "
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_device____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__length
+#, python-format
+msgid "Length"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__registration_plate
+#, python-format
+msgid "License plate number of the vehicle (i = plate number for a car)"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__line_account
+#, python-format
+msgid "Line Account"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__name
+#, python-format
+msgid "Line Number"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__term
+#, python-format
+msgid "Line Terms"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__ready
+msgid "Lista para instalar"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_device
+msgid "Logica Mobile Mexico Devices model"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_platforms_list
+msgid "Logica Mobile Mexico Gps Devices Platforms List Module"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__brand
+msgid "Marca"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__major_account
+#, python-format
+msgid "Mayor Accounte"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__maztiempo
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "MazTiempo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__method
+msgid "Method"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Model"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_model
+msgid "Modelo"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
+msgid "More Info"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__movistar
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Movistar"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/accessory.py:0
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/calibration_results.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_tank.py:0 code:addons/lmm/models/fuel_test.py:0
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "New"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__nick
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__nick
+#, python-format
+msgid "Nick"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__new
+msgid "Nuevo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_device__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__serial_number_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__serial_number
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__serial_number_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__serial_number_id
+msgid "Número de Serie"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Operative Status"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Out of Service"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0 code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Owner"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__device_pin
+msgid "PIN"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#, python-format
+msgid "Pattern jug"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__vehicle_id
+msgid "Pertene al Vehículo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__registration_plate
+msgid "Placa"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__plan
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Plan"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__name
+msgid "Plataforma"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/platforms_list.py:0
+#, python-format
+msgid "Platform"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.platform_list_form_view
+msgid "Platform Info"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.platforms_list_menu
+msgid "Platform List"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.platform_list_tree_view
+msgid "Platform List Tree"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model:ir.actions.act_window,name:lmm.platform_list_action
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__platform_list_id
+#, python-format
+msgid "Platforms List"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__for_installing
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__for_installing
+msgid "Por Instalar"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__position
+msgid "Position"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__borrowed
+msgid "Prestado"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+msgid "Product"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Product Type"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__prossea
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Prossea"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Proveedor"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__provider
+msgid "Provider"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+msgid "Provider Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Provider Invoice"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__tests
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__tests
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__tests
+msgid "Pruebas"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/cell_chip.py:0
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Purchase Date"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__rma
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__rma
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__rma
+#, python-format
+msgid "RMA"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__tracking
+msgid "Rastreo"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Ready to Install"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__replaced
+msgid "Reemplazado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__replacement
+msgid "Reemplazo"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Registration Plate"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Replaced"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Replacement"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__backup
+msgid "Respaldo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_ids
+msgid "Resultados de Calibración"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+msgid "Results"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
+msgid "Results Details"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/account.py:0
+#, python-format
+msgid "Retail"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__line_number_id
+#, python-format
+msgid "SIMCARD"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_sample_form_view
+msgid "Sample Details"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__sample_number
+#, python-format
+msgid "Sample No"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
+msgid "Samples"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+msgid "Search"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__fuel_sensor_id
+#, python-format
+msgid "Sensor"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__fuel_sensor_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__fuel_sensor_id
+msgid "Sensor de Combustible Instalado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_sensor_id
+msgid "Sensor de combustible"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Serial Number"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__simpacsys
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Simpacsys"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__sinister
+msgid "Siniestro"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Sinister"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration_results.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Size"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__skywave
+msgid "Skywave"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#, python-format
+msgid "Sold"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__state
+msgid "State"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/cell_chip.py:0
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Status"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Status Date"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__days_suspended
+#, python-format
+msgid "Status Elpased Days"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_device__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Suspended"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__suspended
+msgid "Suspendido"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
+#, python-format
+msgid "Taken"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__size
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__size
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__size
+msgid "Tamaño"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__fuel_tank_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_tank_id
+msgid "Tanque de combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_ids
+msgid "Tanques de combustible"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__technician
+#, python-format
+msgid "Technician"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__telcel
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
+msgid "Telcel"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__temperature
+msgid "Temperatura"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Temperature"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+msgid "Term"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_ids
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
+#, python-format
+msgid "Test Samples"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Tests"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_accessory_name_unique
+msgid "The accessory id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_calibration_name_unique
+msgid "The calibration id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_calibration_results_name_unique
+msgid "The calibration results id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_cell_chip_name_unique
+msgid "The cellchip id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_characterization_name_unique
+msgid "The characterization id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_device_name_unique
+msgid "The device id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_sensor_name_unique
+msgid "The fuel sensor name must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_tank_name_unique
+msgid "The fuel tank name must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_test_name_unique
+msgid "The fuel test id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_test_samples_name_unique
+msgid "The fuel test sample id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_platforms_list_name_unique
+msgid "The gps platform name must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_vehicle_name_unique
+msgid "The vehicle name must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_vehicle_type_list_name_unique
+msgid "The vehicle type name must be unique"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__assigned_tickets
+#, python-format
+msgid "Tickets Count"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__days_suspended
+msgid "Time elapsed since the line was set to suspended expressed in days"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__type
+msgid "Tipo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__product_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__product_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__product_id
+msgid "Tipo de Producto"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__name
+msgid "Tipod de Vehículo"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Tracking"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/account.py:0 code:addons/lmm/models/fuel_sensor.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__type
+#, python-format
+msgid "Type"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_device__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_term
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_term
+msgid "Términos de Garantía"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
+#, python-format
+msgid "Uninstalled"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__vin_sn
+#, python-format
+msgid "Unique number written on the vehicle motor (VIN/SN number)"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__taken
+msgid "Utilizado"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test.py:0 code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Vehicle"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Vehicle Description"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_type_list_form_view
+msgid "Vehicle Form"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_fuel_tank
+msgid "Vehicle Fuel Tanks"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_type_list_form_view
+msgid "Vehicle Info"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#: code:addons/lmm/models/vehicle_type_list.py:0
+#, python-format
+msgid "Vehicle Type"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.gps_devices_menu
+msgid "Vehicle Type List"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_type_list_tree_view
+msgid "Vehicle Type List Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.lmm_vehicles_menu
+#: model:ir.ui.menu,name:lmm.lmm_vehicles_menu_item
+msgid "Vehicles"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_vehicle
+msgid "Vehicles Module"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_vehicle_type_list
+msgid "Vehicles Type Module"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__vehicle_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__name
+msgid "Vehículo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__description
+msgid "Vehículo Descripción"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__sold
+msgid "Vendido"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__voice
+msgid "Voice"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration_results.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__volts
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volts
+#, python-format
+msgid "Volts"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration_results.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#, python-format
+msgid "Volume"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__volume
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__volume
+msgid "Volumen"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+msgid "Warranty"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Warranty End Date"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.device_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+msgid "Warranty Information"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Warranty Start Date"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#, python-format
+msgid "Warranty Term"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_accessory__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_calibration_results__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_cell_chip__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_characterization__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_device__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_platforms_list__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle_type_list__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/account.py:0
+#, python-format
+msgid "Wholesaler"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
+#, python-format
+msgid "Year"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#, python-format
+msgid "amorphous"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
+msgid "calibration_results Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_tree_view
+msgid "calibration_resultss Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_calibration_list_action
+msgid "calibrations"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_tree_view
+msgid "calibrations Tree"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+msgid "cell_chip Form"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
+msgid "cell_chip Info"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.cell_chip_list_action
+msgid "cell_chips"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.cell_chip_tree_view
+msgid "cell_chips Tree"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_tree_view
+msgid "characterizations Tree"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__correction
+#, python-format
+msgid "correction"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__cylindrical
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__cylindrical
+#, python-format
+msgid "cylindrical"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/account.py:0
+#, python-format
+msgid "dealer"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_tree_view
+msgid "fuel_sensors Tree"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_tree_view
+msgid "fuel_tanks Tree"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.fuel_fuel_test_menu
+msgid "fuel_test"
+msgstr ""
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.fuel_fuel_test_sample_menu
+msgid "fuel_test_sample"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_vehicle_type_list_action
+msgid "lmm.vehicle.type.list"
+msgstr ""
+
+#. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_vehicle_list_action
+msgid "lmm_vehicles"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_tree_view
+msgid "lmm_vehicles Tree"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position1
+#, python-format
+msgid "position 1"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position2
+#, python-format
+msgid "position 2"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position3
+#, python-format
+msgid "position 3"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__rectangular
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__rectangular
+#, python-format
+msgid "rectangular"
+msgstr ""

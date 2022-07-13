@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="seq_accessory" model="ir.sequence">
+    <field name="name">Vehicle Sequence</field>
+    <field name="code">lmm.vehicle</field>
+    <field name="prefix">VEC</field>
+    <field name="padding">10</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_vehicle_form_view">
+    <field name="name">lmm.vehicle.form</field>
+    <field name="model">lmm.vehicle</field>
+    <field name="arch" type="xml">
+      <form string="Vehicle Form">
+        <sheet>
+          <div name="button_box" class="oe_button_box">
+            <button
+                    class="oe_stat_button"
+                    icon="fa-map-marker"
+                    type="action"
+                    attrs="{'invisible': [('devices_count', '&lt;', 1)]}"
+                    name="%(lmm_device_list_action)d"
+                    context="{'default_vehicle_id': active_id}">
+              <field string="Devices" name="devices_count" widget="statinfo" />
+            </button>
+            <button
+                    class="oe_stat_button"
+                    icon="fa-tachometer"
+                    type="action"
+                    attrs="{'invisible': [('fuel_tank_count', '&lt;', 1)]}"
+                    name="%(lmm_fuel_tank_list_action)d"
+                    context="{'default_vehicle_id': active_id}">
+
+              <field string="Fuel Tanks" name="fuel_tank_count" widget="statinfo" />
+            </button>
+
+            <button
+                    class="oe_stat_button"
+                    icon="fa-cubes"
+                    type="action"
+                    attrs="{'invisible': [('accessories_count', '&lt;', 1)]}"
+                    name="%(lmm_accessory_list_action)d"
+                    context="{'default_vehicle_id': active_id}">
+              <field string="Accessories" name="accessories_count" widget="statinfo" />
+            </button>
+
+          </div>
+          <group>
+            <group string="Vehicle Info">
+              <separator/>
+              <field name="name"/>
+              <field name="nick"/>
+              <field name="vin_sn"/>
+              <field name="registration_plate"/>
+              <field name="client_id"/>
+            </group>
+
+            <group string="Details">
+              <separator/>
+              <field name="vehicle_type_id"/>
+              <field name="brand"/>
+              <field name="vehicle_model"/>
+              <field name="vehicle_color"/>
+              <field name="year" widget="integer" options="{'format': 0}"/>
+              <field name="operative_status"/>
+            </group>
+          </group>
+
+          <notebook>
+            <page string="Devices">
+                <field name="device_ids" widget="many2many" options="{'no_create': True}"/>
+            </page>
+            <page string="Fuel Tanks">
+                <field name="fuel_tank_ids" widget="many2many" options="{'no_create': True}"/>
+            </page>
+            <page string="Accessories">
+                <field name="accessory_ids" widget="many2many" options="{'no_create': True}"/>
+            </page>
+          </notebook>
+        </sheet>
+
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_vehicle_search_view">
+    <field name="name">lmm_vehicle.search</field>
+    <field name="model">lmm.vehicle</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="nick"/>
+        <field name="client_id"/>
+        <field name="operative_status"/>
+        <field name="vin_sn"/>
+        <field name="registration_plate"/>
+        <field name="vehicle_type_id"/>
+        <field name="message_ids" string="Chatter Messages" filter_domain="[('message_ids.body', 'ilike', self)]"/>
+        <group expand="1" string="Group By">
+          <filter string="Cliente" name="cliente" context="{'group_by':'client_id'}"/>
+          <separator orientation="vertical" />
+          <filter string="Estatus" name="status" context="{'group_by':'operative_status'}"/>
+        </group>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_vehicle_tree_view">
+    <field name="name">lmm_vehicle.tree</field>
+    <field name="model">lmm.vehicle</field>
+    <field name="arch" type="xml">
+      <tree string="lmm_vehicles Tree">
+        <field name="name"/>
+        <field name="nick"/>
+        <field name="client_id"/>
+        <field name="operative_status"/>
+        <field name="registration_plate"/>
+        <field name="vin_sn"/>
+        <field name="vehicle_type_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_vehicle_list_action">
+    <field name="name">lmm_vehicles</field>
+    <field name="res_model">lmm.vehicle</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <!-- Menu items -->
+  <menuitem
+          id="lmm_vehicles_menu_item"
+          name="Vehicles"
+          parent="lmm_vehicles_menu"
+          action="lmm_vehicle_list_action"
+          sequence="1"
+  />
+</odoo>

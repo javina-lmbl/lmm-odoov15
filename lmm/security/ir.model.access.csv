@@ -1,0 +1,53 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+devices_manager,Devices Manager,model_lmm_device,lmm_group_manager,1,1,1,1
+devices_user,Devices User,model_lmm_device,lmm_group_user,1,1,1,0
+devices_maintainer,Devices Maintainer,model_lmm_device,lmm_group_maintainer,1,1,0,0
+devices_reader,Devices Reader,model_lmm_device,lmm_group_reader,1,0,0,0
+platforms_list_manager,Platform List Manager,model_lmm_platforms_list,lmm_group_manager,1,1,1,1
+platforms_list_user,Platform List User,model_lmm_platforms_list,lmm_group_user,1,1,1,0
+platforms_list_maintainer,Platform List Maintainer,model_lmm_platforms_list,lmm_group_maintainer,1,1,0,0
+platforms_list_reader,Platform List Reader,model_lmm_platforms_list,lmm_group_reader,1,0,0,0
+cell_chips_manager,Cell Chips Manager,model_lmm_cell_chip,lmm_group_manager,1,1,1,1
+cell_chips_user,Cell Chips User,model_lmm_cell_chip,lmm_group_user,1,1,1,0
+cell_chips_maintainer,Cell Chips List Maintainer,model_lmm_cell_chip,lmm_group_maintainer,1,1,0,0
+cell_chips_reader,Cell Chips Reader,model_lmm_cell_chip,lmm_group_reader,1,0,0,0
+vehicle_type_list_manager,Vehicle Type List Manager,model_lmm_vehicle_type_list,lmm_group_manager,1,1,1,1
+vehicle_type_list_user,Vehicle Type List User,model_lmm_vehicle_type_list,lmm_group_user,1,1,1,0
+vehicle_type_list_maintainer,Vehicle Type List Maintainer,model_lmm_vehicle_type_list,lmm_group_maintainer,1,1,0,0
+vehicle_type_list_reader,Vehicle Type List Reader,model_lmm_vehicle_type_list,lmm_group_reader,1,0,0,0
+vehicle_manager,Vehicle Manager,model_lmm_vehicle,lmm_group_manager,1,1,1,1
+vehicle_user,Vehicle User,model_lmm_vehicle,lmm_group_user,1,1,1,0
+vehicle_maintainer,Vehicle Maintainer,model_lmm_vehicle,lmm_group_maintainer,1,1,0,0
+vehicle_reader,Vehicle Reader,model_lmm_vehicle,lmm_group_reader,1,0,0,0
+accessory_manager,Accessory Manager,model_lmm_accessory,lmm_group_manager,1,1,1,1
+accessory_user,Accessory User,model_lmm_accessory,lmm_group_user,1,1,1,0
+accessory_maintainer,Accessory Maintainer,model_lmm_accessory,lmm_group_maintainer,1,1,0,0
+accessory_reader,Accessory Reader,model_lmm_accessory,lmm_group_reader,1,0,0,0
+fuel_tank_manager,FuelTank Manager,model_lmm_fuel_tank,lmm_group_manager,1,1,1,1
+fuel_tank_read_all,FuelTank User,model_lmm_fuel_tank,lmm_group_user,1,1,1,0
+fuel_tank_maintainer,FuelTank Maintainer,model_lmm_fuel_tank,lmm_group_maintainer,1,0,0,0
+fuel_tank_guest,FuelTank Reader,model_lmm_fuel_tank,lmm_group_reader,1,0,0,0
+fuel_sensor_manager,Fuel Sensor Manager,model_lmm_fuel_sensor,lmm_group_manager,1,1,1,1
+fuel_sensor_read_all,Fuel Sensor User,model_lmm_fuel_sensor,lmm_group_user,1,1,1,0
+fuel_sensor_maintainer,Fuel Sensor Maintainer,model_lmm_fuel_sensor,lmm_group_maintainer,1,0,0,0
+fuel_sensor_guest,Fuel Sensor Reader,model_lmm_fuel_sensor,lmm_group_reader,1,0,0,0
+characterization_manager,Characterization Manager,model_lmm_characterization,lmm_group_manager,1,1,1,1
+characterization_read_all,Characterization User,model_lmm_characterization,lmm_group_user,1,1,1,0
+characterization_maintainer,Characterization Maintainer,model_lmm_characterization,lmm_group_maintainer,1,0,0,0
+characterization_guest,Characterization Reader,model_lmm_characterization,lmm_group_reader,1,0,0,0
+calibration_manager,Calibration Manager,model_lmm_calibration,lmm_group_manager,1,1,1,1
+calibration_read_all,Calibration User,model_lmm_calibration,lmm_group_user,1,1,1,0
+calibration_maintainer,Calibration Maintainer,model_lmm_calibration,lmm_group_maintainer,1,0,0,0
+calibration_guest,Calibration Reader,model_lmm_calibration,lmm_group_reader,1,0,0,0
+calibration_results_manager,Calibration Results Manager,model_lmm_calibration_results,lmm_group_manager,1,1,1,1
+calibration_results_read_all,Calibration Results User,model_lmm_calibration_results,lmm_group_user,1,1,1,0
+calibration_results_maintainer,Calibration Results Maintainer,model_lmm_calibration_results,lmm_group_maintainer,1,0,0,0
+calibration_results_guest,Calibration Results Reader,model_lmm_calibration_results,lmm_group_reader,1,0,0,0
+fuel_test_manager,Fuel Test Manager,model_lmm_fuel_test,lmm_group_manager,1,1,1,1
+fuel_test_read_all,Fuel Test User,model_lmm_fuel_test,lmm_group_user,1,1,1,0
+fuel_test_maintainer,Fuel Test Maintainer,model_lmm_fuel_test,lmm_group_maintainer,1,0,0,0
+fuel_test_guest,Fuel Test Reader,model_lmm_fuel_test,lmm_group_reader,1,0,0,0
+fuel_test_samples_manager,Fuel Test Samples Manager,model_lmm_fuel_test_samples,lmm_group_manager,1,1,1,1
+fuel_test_samples_read_all,Fuel Test Samples User,model_lmm_fuel_test_samples,lmm_group_user,1,1,1,0
+fuel_test_samples_maintainer,Fuel Test Samples Maintainer,model_lmm_fuel_test_samples,lmm_group_maintainer,1,0,0,0
+fuel_test_samples_guest,Fuel Test Samples Reader,model_lmm_fuel_test_samples,lmm_group_reader,1,0,0,0

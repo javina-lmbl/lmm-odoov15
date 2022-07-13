@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_fuel_test" model="ir.sequence">
+    <field name="name">Fuel Test Sequence</field>
+    <field name="code">lmm.fuel_test</field>
+    <field name="prefix">FT</field>
+    <field name="padding">15</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_form_view">
+    <field name="name">Fuel test Form</field>
+    <field name="model">lmm.fuel_test</field>
+    <field name="arch" type="xml">
+      <form string="Fuel test Form">
+        <sheet>
+          <div name="button_box" class="oe_button_box">
+            <button
+                    class="oe_stat_button"
+                    icon="fa-bar-chart"
+                    type="action"
+                    attrs="{'invisible': [('fuel_test_samples_count', '&lt;', 1)]}"
+                    name="%(lmm_fuel_test_sample_list_action)d"
+                    context="{'default_fuel_test_id': active_id}">
+              <field string="Samples" name="fuel_test_samples_count" widget="statinfo" />
+            </button>
+          </div>
+
+           <group>
+            <group string="Info">
+              <separator/>
+              <field name="name"/>
+              <field name="vehicle_id"/>
+            </group>
+            <group string="Details">
+              <separator/>
+              <field name="technician"/>
+              <field name="device_id"/>
+            </group>
+          </group>
+        <notebook>
+            <page string="Test Samples">
+              <field name="fuel_test_samples_ids" widget="many2many" options="{'no_create': True}"/>
+            </page>
+          </notebook>
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_search_view">
+    <field name="name">Fuel test Search</field>
+    <field name="model">lmm.fuel_test</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="vehicle_id"/>
+        <field name="technician"/>
+        <field name="device_id"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_tree_view">
+    <field name="name">Fuel test Tree</field>
+    <field name="model">lmm.fuel_test</field>
+    <field name="arch" type="xml">
+      <tree string="Fuel tests Tree">
+        <field name="name"/>
+        <field name="vehicle_id"/>
+        <field name="technician"/>
+        <field name="device_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_fuel_test_list_action">
+    <field name="name">Fuel tests</field>
+    <field name="res_model">lmm.fuel_test</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_tests_menu"
+          name="Tests"
+          parent="fuel_tests_section_menu"
+          action="lmm_fuel_test_list_action"
+          sequence="2"
+  />
+</odoo>

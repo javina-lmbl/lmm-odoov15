@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record model="ir.ui.view" id="lgps_account_form_view">
+    <field name="name">lgps_account.form</field>
+    <field name="model">lgps_account</field>
+    <field name="arch" type="xml">
+      <form string="Account Form">
+        <sheet>
+          <group string="Account Info">
+              <separator/>
+              <field name="name"/>
+              <field name="type"/>
+              <field name="client_id"/>
+          </group>
+        </sheet>
+
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lgps_account_search_view">
+    <field name="name">lgps_account.search</field>
+    <field name="model">lgps.lgps_account</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="type"/>
+        <field name="client_id"/>
+
+        <field name="message_ids" string="Chatter Messages" filter_domain="[('message_ids.body', 'ilike', self)]"/>
+        <group expand="1" string="Group By">
+          <filter string="Cliente" name="cliente" context="{'group_by':'client_id'}"/>
+          <separator orientation="vertical" />
+          <filter string="Type" name="type" context="{'group_by':'type'}"/>
+        </group>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lgps_account_tree_view">
+    <field name="name">lgps_account.tree</field>
+    <field name="model">lgps.lgps_account</field>
+    <field name="arch" type="xml">
+      <tree string="Accounts Tree">
+        <field name="name"/>
+        <field name="type"/>
+        <field name="client_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lgps_account_list_action">
+    <field name="name">lgps_accounts</field>
+    <field name="res_model">lgps.lgps_account</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <!-- Menu items -->
+  <menuitem id="gps_devices_menu" name="Accounts" parent="lgps_menu" action="lgps_account_list_action"/>
+</odoo>

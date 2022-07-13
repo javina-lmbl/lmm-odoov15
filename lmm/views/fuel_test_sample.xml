@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_fuel_test_sample" model="ir.sequence">
+    <field name="name">Fuel Test Sample Sequence</field>
+    <field name="code">lmm.fuel_test_sample_sample</field>
+    <field name="prefix">FTX</field>
+    <field name="padding">15</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_sample_form_view">
+    <field name="name">Fuel test sample Form</field>
+    <field name="model">lmm.fuel_test_samples</field>
+    <field name="arch" type="xml">
+      <form string="Fuel test sample Form">
+        <header>
+        </header>
+        <sheet>
+           <group>
+            <group string="Info">
+              <separator/>
+              <field name="name"/>
+              <field name="fuel_test_id"/>
+              <field name="fuel_tank_id"/>
+              <field name="fuel_sensor_id"/>
+            </group>
+
+            <group string="Sample Details">
+              <separator/>
+              <field name="sample_number"/>
+              <field name="volume"/>
+              <field name="diff"/>
+            </group>
+          </group>
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_sample_search_view">
+    <field name="name">Fuel test sample Search</field>
+    <field name="model">lmm.fuel_test_samples</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="fuel_tank_id"/>
+        <field name="fuel_test_id"/>
+        <field name="fuel_sensor_id"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_test_sample_tree_view">
+    <field name="name">Fuel test sample Tree</field>
+    <field name="model">lmm.fuel_test_samples</field>
+    <field name="arch" type="xml">
+      <tree string="Fuel test samples Tree">
+        <field name="sample_number"/>
+        <field name="fuel_test_id"/>
+        <field name="fuel_tank_id"/>
+        <field name="volume"/>
+        <field name="diff"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_fuel_test_sample_list_action">
+    <field name="name">Fuel test samples</field>
+    <field name="res_model">lmm.fuel_test_samples</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_test_samples_menu"
+          name="Test Samples"
+          parent="fuel_tests_section_menu"
+          action="lmm_fuel_test_sample_list_action"
+          sequence="4"
+  />
+</odoo>

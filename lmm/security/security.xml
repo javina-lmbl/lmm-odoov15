@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    
+    <record id="module_lmm_category" model="ir.module.category">
+      <field name="name">LMM</field>
+    </record>
+
+    <!-- lmm Guest Group -->
+  <record id="lmm_group_reader" model="res.groups">
+    <field name="name">LMM / Reader</field>
+    <field name="category_id" ref="module_lmm_category"/>
+    <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+  </record>
+
+  <!-- lmm User Group -->
+  <record id="lmm_group_user" model="res.groups">
+    <field name="name">LMM / User</field>
+    <field name="category_id" ref="module_lmm_category"/>
+    <field name="implied_ids" eval="[(4, ref('lmm_group_reader'))]"/>
+  </record>
+
+  <!-- lmm Maintainer Group -->
+  <record id="lmm_group_maintainer" model="res.groups">
+    <field name="name">LMM / Maintainer</field>
+    <field name="category_id" ref="module_lmm_category"/>
+    <field name="implied_ids" eval="[(4, ref('lmm_group_user'))]"/>
+  </record>
+
+      <!-- lmm Manager Group -->
+  <record id="lmm_group_manager" model="res.groups">
+    <field name="name">LMM / Manager</field>
+    <field name="category_id" ref="module_lmm_category"/>
+    <field name="implied_ids" eval="[(4, ref('lmm_group_maintainer'))]"/>
+    <field name="users" eval="[
+            (4, ref('base.user_root')),
+            (4, ref('base.user_admin'))
+        ]"/>
+  </record>
+
+  <!-- lmm Wizards Group -->
+  <record id="lmm_group_wizard_manager" model="res.groups">
+    <field name="name">LMM / Wizards </field>
+    <field name="category_id" ref="module_lmm_category"/>
+    <field name="implied_ids" eval="[(4, ref('lmm_group_maintainer'))]"/>
+    <field name="users" eval="[
+            (4, ref('base.user_root')),
+            (4, ref('base.user_admin'))
+        ]"/>
+  </record>
+
+  </data>
+</odoo>

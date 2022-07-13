@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_calibration_results" model="ir.sequence">
+    <field name="name">Calibration Results Sequence</field>
+    <field name="code">lmm.calibration_results</field>
+    <field name="prefix">CTR</field>
+    <field name="padding">15</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_results_form_view">
+    <field name="name">Calibration Results Form</field>
+    <field name="model">lmm.calibration_results</field>
+    <field name="arch" type="xml">
+      <form string="calibration_results Form">
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <group string="Data">
+              <separator/>
+              <field name="name"/>
+              <field name="calibration_id"/>
+              <field name="size"/>
+            </group>
+            <group string="Details">
+              <separator/>
+              <field name="volts"/>
+              <field name="adc"/>
+              <field name="volume"/>
+            </group>
+          </group>        
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_results_search_view">
+    <field name="name">calibration_results Search</field>
+    <field name="model">lmm.calibration_results</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="calibration_id"/>
+        <field name="size"/>
+        <field name="volts"/>
+        <field name="adc"/>
+        <field name="volume"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_results_tree_view">
+    <field name="name">calibration_results Tree</field>
+    <field name="model">lmm.calibration_results</field>
+    <field name="arch" type="xml">
+      <tree string="calibration_resultss Tree">
+        <field name="name"/>
+        <field name="calibration_id"/>
+        <field name="size"/>
+        <field name="volts"/>
+        <field name="adc"/>
+        <field name="volume"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_calibration_results_list_action">
+    <field name="name">Calibration results</field>
+    <field name="res_model">lmm.calibration_results</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_calibration_results_menu"
+          name="Calibration Results"
+          parent="lmm_calibration_menu"
+          action="lmm_calibration_results_list_action"
+          sequence="2"
+  />
+</odoo>

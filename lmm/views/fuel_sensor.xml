@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_fuel_sensor" model="ir.sequence">
+    <field name="name">Fuel Sensor Sequence</field>
+    <field name="code">lmm.fuel_sensor</field>
+    <field name="prefix">SEN</field>
+    <field name="padding">10</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_sensor_form_view">
+    <field name="name">Fuel Sensor Form</field>
+    <field name="model">lmm.fuel_sensor</field>
+    <field name="arch" type="xml">
+      <form string="Fuel Sensor Form">
+        <sheet>
+          <group>
+            <group string="Fuel Sensor Info">
+              <separator/>
+              <field name="name"/>
+              <field name="type"/>
+              <field name="state"/>
+              <field name="product_id"/>
+            </group>
+            <group string="More Info">
+              <separator/>
+              <field name="client_id"/>
+              <field name="serial_number_id"/>
+              <field name="size"/>
+            </group>
+          </group>
+          <notebook>
+            <page string="Fuel Tanks">
+              <field name="fuel_tank_id" attrs="{'readonly': True}"/>
+            </page>
+          </notebook>
+        </sheet>
+
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+        
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_sensor_search_view">
+    <field name="name">Fuel Sensor Search</field>
+    <field name="model">lmm.fuel_sensor</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="product_id"/>
+        <field name="type"/>
+        <field name="fuel_tank_id"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_sensor_tree_view">
+    <field name="name">Fuel Sensor Tree</field>
+    <field name="model">lmm.fuel_sensor</field>
+    <field name="arch" type="xml">
+      <tree string="fuel_sensors Tree">
+        <field name="name"/>
+        <field name="product_id"/>
+        <field name="state"/>
+        <field name="type"/>
+        <field name="serial_number_id"/>
+        <field name="client_id"/>
+        <field name="size"/>
+        <field name="fuel_tank_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_fuel_sensor_list_action">
+    <field name="name">Fuel Sensors</field>
+    <field name="res_model">lmm.fuel_sensor</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_sensor_menu"
+          name="Fuel Sensors"
+          parent="lmm_vehicles_menu"
+          action="lmm_fuel_sensor_list_action"
+          sequence="4"
+  />
+</odoo>

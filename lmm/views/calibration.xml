@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_calibration" model="ir.sequence">
+    <field name="name">calibration Sequence</field>
+    <field name="code">lmm.calibration</field>
+    <field name="prefix">CT</field>
+    <field name="padding">15</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_form_view">
+    <field name="name">Calibration Form</field>
+    <field name="model">lmm.calibration</field>
+    <field name="arch" type="xml">
+      <form string="Calibration Form">
+        <header>
+        </header>
+        <sheet>
+          <div name="button_box" class="oe_button_box">
+            <button
+                    class="oe_stat_button"
+                    icon="fa-list-alt"
+                    type="action"
+                    attrs="{'invisible': [('calibration_results_count', '&lt;', 1)]}"
+                    name="%(lmm_calibration_results_list_action)d"
+                    context="{'default_calibration_id': active_id}">
+              <field string="Results" name="calibration_results_count" widget="statinfo" />
+            </button>
+          </div>
+
+          <group>
+            <group string="Info">
+              <separator/>
+              <field name="name"/>
+              <field name="fuel_sensor_id"/>
+            </group>
+            <group string="Details">
+              <separator/>
+              <field name="method"/>
+              <field name="correction"/>
+            </group>
+          </group>
+          <notebook>
+            <page string="Results Details">
+              <field name="calibration_results_ids" widget="many2many" options="{'no_create': True}">
+                <tree>
+                  <field name="name"/>
+                  <field name="size"/>
+                  <field name="volts"/>
+                  <field name="adc"/>
+                  <field name="volume"/>
+                </tree>
+              </field>
+            </page>
+            <page string="Images">
+              <field name="img1" widget="image"/>
+              <field name="img2" widget="image"/>
+              <field name="img3" widget="image"/>
+            </page>
+          </notebook>
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_search_view">
+    <field name="name">calibration Search</field>
+    <field name="model">lmm.calibration</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="fuel_sensor_id"/>
+        <field name="method"/>
+        <field name="correction"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_calibration_tree_view">
+    <field name="name">calibration Tree</field>
+    <field name="model">lmm.calibration</field>
+    <field name="arch" type="xml">
+      <tree string="calibrations Tree">
+        <field name="name"/>
+        <field name="fuel_sensor_id"/>
+        <field name="method"/>
+        <field name="correction"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_calibration_list_action">
+    <field name="name">calibrations</field>
+    <field name="res_model">lmm.calibration</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_calibration_menu"
+          name="Calibration"
+          parent="lmm_calibration_menu"
+          action="lmm_calibration_list_action"
+          sequence="1"
+  />
+</odoo>

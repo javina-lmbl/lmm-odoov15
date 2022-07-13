@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_fuel_tank" model="ir.sequence">
+    <field name="name">FuelTank Sequence</field>
+    <field name="code">lmm.fuel_tank</field>
+    <field name="prefix">FTK</field>
+    <field name="padding">10</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_tank_form_view">
+    <field name="name">fuel_tank.form</field>
+    <field name="model">lmm.fuel_tank</field>
+    <field name="arch" type="xml">
+      <form string="Fuel Tank Form">
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <group string="Fuel Tank Info">
+              <separator/>
+              <field name="name"/>
+              <field name="vehicle_id"/>
+              <field name="fuel_sensor_id"/>
+            </group>
+            <group string="More Info">
+              <separator/>
+              <field name="type"/>
+              <field name="length"/>
+              <field name="diameter"/>
+              <field name="gasket"/>
+              <field name="volume"/>
+              <field name="position"/>
+            </group>
+          </group>
+        </sheet>
+
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+        
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_tank_search_view">
+    <field name="name">fuel_tank.search</field>
+    <field name="model">lmm.fuel_tank</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="fuel_sensor_id"/>
+        <field name="type"/>
+        <field name="vehicle_id"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_tank_tree_view">
+    <field name="name">fuel_tank.tree</field>
+    <field name="model">lmm.fuel_tank</field>
+    <field name="arch" type="xml">
+      <tree string="fuel_tanks Tree">
+        <field name="name"/>
+        <field name="fuel_sensor_id"/>
+        <field name="type"/>
+        <field name="vehicle_id"/>
+        <field name="diameter"/>
+        <field name="length"/>
+        <field name="volume"/>
+        <field name="gasket"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_fuel_tank_list_action">
+    <field name="name">Fuel Tank</field>
+    <field name="res_model">lmm.fuel_tank</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_tank_menu"
+          name="Fuel Tanks"
+          parent="lmm_vehicles_menu"
+          action="lmm_fuel_tank_list_action"
+          sequence="3"
+  />
+</odoo>
