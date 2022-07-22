@@ -62,7 +62,10 @@ class FuelSensor(models.Model):
         comodel_name="product.product",
         required=True,
         string=_("Product Type"),
-        index=True
+        index=True,
+        domain=[
+            ('default_code', '=like', 'CFEL%')
+        ]
     )
 
     fuel_tank_id = fields.One2many(

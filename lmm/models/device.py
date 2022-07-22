@@ -63,10 +63,95 @@ class Device(models.Model):
         tracking=True
     )
 
+    fleetrun = fields.Boolean(
+        default=False,
+        string=_("Fleetrun"),
+        tracking=True
+    )
+
+    speaker = fields.Boolean(
+        default=False,
+        string=_("Speaker"),
+    )
+
+    anti_jammer_blocker = fields.Boolean(
+        default=False,
+        string=_("Anti Jammer Blocker"),
+    )
+
+    smart_blocker = fields.Boolean(
+        default=False,
+        string=_("Smart Blocker"),
+    )
+
+    blocker = fields.Boolean(
+        default=False,
+        string=_("Blocker"),
+    )
+
+    scanner = fields.Boolean(
+        default=False,
+        string="Scanner",
+        tracking=True
+    )
+
+    padlock = fields.Boolean(
+        default=False,
+        string=_("Padlock"),
+    )
+
+    solar_panel = fields.Boolean(
+        default=False,
+        string=_("Solar Panel"),
+    )
+
     temperature = fields.Boolean(
         default=False,
         string=_("Temperature"),
         tracking=True
+    )
+
+    ibutton = fields.Boolean(
+        default=False,
+        string=_("iButton"),
+    )
+
+    microphone = fields.Boolean(
+        default=False,
+        string=_("Microphone"),
+    )
+
+    sheet = fields.Boolean(
+        default=False,
+        string=_("Sheet"),
+    )
+
+    opening_sensor = fields.Boolean(
+        default=False,
+        string=_("Opening Sensor"),
+    )
+
+    logistic = fields.Boolean(
+        default=False,
+        string=_("Logistic"),
+        tracking=True
+    )
+
+    collective = fields.Boolean(
+        default=False,
+        string=_("Collective"),
+        tracking=True
+    )
+
+    fuel_hall = fields.Boolean(
+        default=False,
+        string=_("Efecto Hall"),
+        tracking=True
+    )
+
+    disengagement_sensor = fields.Boolean(
+        default=False,
+        string=_("Disengagement Sensor"),
     )
 
     operative_status = fields.Selection(
@@ -83,6 +168,25 @@ class Device(models.Model):
         default="inventory",
         string=_("Status"),
         tracking=True
+    )
+
+    datetime_gps = fields.Datetime(
+        string=_("DateTime GPS"),
+    )
+
+    datetime_server = fields.Datetime(
+        string=_("DateTime Server"),
+    )
+
+    last_position = fields.Char(
+        string=_("Last Position"),
+    )
+
+    last_report = fields.Integer(
+        string=_("Last Report"),
+        compute="_compute_last_report",
+        store=True,
+        help="Time without reporting in platforms expressed in hours",
     )
 
     platform_list_id = fields.Many2one(
@@ -104,16 +208,20 @@ class Device(models.Model):
 
     product_id = fields.Many2one(
         comodel_name="product.product",
+        domain=[
+            ('default_code', '=like', 'CGPS%')
+        ],
         required=True,
         string=_("Product Type"),
         index=True,
+
     )
 
-    # invoice_id = fields.Char(
-    #     string=_("Provider Invoice"),
-    #     index=True,
-    # )
-    #
+    invoice_id = fields.Char(
+        string=_("Provider Invoice"),
+        index=True,
+    )
+
     dealer_id = fields.Many2one(
         comodel_name="res.partner",
         required=True,
@@ -152,6 +260,12 @@ class Device(models.Model):
         string=_("Device PIN"),
     )
 
+    electronics = fields.Boolean(
+        default=False,
+        string=_("Electronics"),
+        tracking=True,
+    )
+
     vehicle_id = fields.Many2one(
         comodel_name="lmm.vehicle",
         ondelete="set null",
@@ -176,6 +290,16 @@ class Device(models.Model):
             rec.accessories_count = self.env['lmm.accessory'].search_count(
                 [('device_id', '=', rec.id)]
             )
+
+    @api.onchange('product_id')
+    def onchange_get_serialnumbers_for_selected_product(self):
+        _logger.warning('Product ID: %s', self.product_id.name)
+        _logger.warning('Product Name: %s', self.product_id)
+        domain = {}
+        if self.product_id:
+            domain = {'domain': {'serial_number_id': [('product_id', '=', self.product_id.id)]}}
+            _logger.warning('Domain Output: %s', domain)
+        return domain
 
     @api.model
     @api.depends('warranty_term', 'warranty_start_date')

@@ -9,7 +9,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_fuel_tank_form_view">
-    <field name="name">fuel_tank.form</field>
+    <field name="name">Fuel Tank Form</field>
     <field name="model">lmm.fuel_tank</field>
     <field name="arch" type="xml">
       <form string="Fuel Tank Form">
@@ -46,7 +46,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_fuel_tank_search_view">
-    <field name="name">fuel_tank.search</field>
+    <field name="name">Fuel Tank Search</field>
     <field name="model">lmm.fuel_tank</field>
     <field name="arch" type="xml">
       <search>
@@ -59,7 +59,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_fuel_tank_tree_view">
-    <field name="name">fuel_tank.tree</field>
+    <field name="name">Fuel Tank Tree</field>
     <field name="model">lmm.fuel_tank</field>
     <field name="arch" type="xml">
       <tree string="fuel_tanks Tree">

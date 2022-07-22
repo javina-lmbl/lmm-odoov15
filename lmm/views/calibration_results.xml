@@ -41,7 +41,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_calibration_results_search_view">
-    <field name="name">calibration_results Search</field>
+    <field name="name">Calibration Results Search</field>
     <field name="model">lmm.calibration_results</field>
     <field name="arch" type="xml">
       <search>
@@ -55,7 +55,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_calibration_results_tree_view">
-    <field name="name">calibration_results Tree</field>
+    <field name="name">Calibration Results Tree</field>
     <field name="model">lmm.calibration_results</field>
     <field name="arch" type="xml">
       <tree string="calibration_resultss Tree">
@@ -70,7 +70,7 @@
   </record>
 
   <record model="ir.actions.act_window" id="lmm_calibration_results_list_action">
-    <field name="name">Calibration results</field>
+    <field name="name">Calibration Results</field>
     <field name="res_model">lmm.calibration_results</field>
     <field name="view_mode">tree,form</field>
   </record>

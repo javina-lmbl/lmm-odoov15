@@ -28,6 +28,7 @@
                                 <field name="nick"/>
                                 <field name="imei"/>
                                 <field name="platform_list_id"/>
+                                <field name="device_pin"/>
                             </group>
 
                             <group string="Details">
@@ -36,7 +37,12 @@
                                 <field name="operative_status"/>
                                 <field name="installation_date"/>
                                 <field name="product_id"/>
-                                <field name="serial_number_id"/>
+                                <field name="serial_number_id"
+                                       attrs="{'readonly':[('product_id','=',False)]}"
+                                />
+                                <field name="invoice_id"/>
+                                <field name="purchase_date"/>
+                                <field name="installation_date"/>
                             </group>
                         </group>
                         <notebook>
@@ -55,6 +61,53 @@
                             </page>
                             <page string="Accessories">
                               <field name="accessory_ids"/>
+                            </page>
+                            <page string="Services">
+                              <group>
+                                <group string="Functions">
+                                  <field name="tracking"/>
+                                  <field name="fuel"/>
+                                  <field name="fuel_hall"/>
+                                  <field name="temperature"/>
+                                  <field name="collective"/>
+                                  <field name="fleetrun"/>
+                                  <field name="scanner"/>
+                                  <field name="logistic"/>
+                                  <field name="electronics"/>
+                                </group>
+                                <group string="Complements">
+                                  <group>
+                                    <field name="speaker"/>
+                                    <field name="anti_jammer_blocker"/>
+                                    <field name="smart_blocker"/>
+                                    <field name="blocker"/>
+                                    <field name="padlock"/>
+                                    <field name="disengagement_sensor"/>
+                                  </group>
+                                  <group>
+                                    <field name="solar_panel"/>
+                                    <field name="sheet"/>
+                                    <field name="opening_sensor"/>
+                                    <field name="ibutton"/>
+                                    <field name="microphone"/>
+                                  </group>
+                                </group>
+                              </group>
+                            </page>
+
+                            <page string="Location Info">
+                              <group>
+                                <group string="Last Report">
+                                  <separator/>
+                                  <field name="datetime_gps"/>
+                                  <field name="datetime_server"/>
+                                </group>
+                                <group string="Map">
+                                  <separator/>
+                                  <field name="last_position" widget="url" text="See on the Map"/>
+                                  <field name="last_report"/>
+                                </group>
+                              </group>
                             </page>
                         </notebook>
                     </sheet>
@@ -121,6 +174,6 @@
                 name="Devices"
                 parent="lmm_menu"
                 action="lmm_device_list_action"
-                sequence="3"
+                sequence="1"
         />
 </odoo>

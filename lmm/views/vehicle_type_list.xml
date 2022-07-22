@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <record model="ir.ui.view" id="lmm_vehicle_type_list_form_view">
-    <field name="name">lmm.vehicle.type.list.form</field>
+    <field name="name">Vehicle Type Form</field>
     <field name="model">lmm.vehicle_type_list</field>
     <field name="arch" type="xml">
       <form string="Vehicle Form">
@@ -22,7 +22,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_vehicle_type_list_search_view">
-    <field name="name">lmm.vehicle.type.list.search</field>
+    <field name="name">Vehicle Type Search</field>
     <field name="model">lmm.vehicle_type_list</field>
     <field name="arch" type="xml">
       <search>
@@ -33,7 +33,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_vehicle_type_list_tree_view">
-    <field name="name">lmm.vehicle.type.list.tree</field>
+    <field name="name">Vehicle Type Tree</field>
     <field name="model">lmm.vehicle_type_list</field>
     <field name="arch" type="xml">
       <tree string="Vehicle Type List Tree">

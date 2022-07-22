@@ -9,7 +9,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_vehicle_form_view">
-    <field name="name">lmm.vehicle.form</field>
+    <field name="name">Vehicle Form</field>
     <field name="model">lmm.vehicle</field>
     <field name="arch" type="xml">
       <form string="Vehicle Form">
@@ -90,7 +90,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_vehicle_search_view">
-    <field name="name">lmm_vehicle.search</field>
+    <field name="name">Vehicle Search</field>
     <field name="model">lmm.vehicle</field>
     <field name="arch" type="xml">
       <search>
@@ -112,7 +112,7 @@
   </record>
 
   <record model="ir.ui.view" id="lmm_vehicle_tree_view">
-    <field name="name">lmm_vehicle.tree</field>
+    <field name="name">Vehicle Tree</field>
     <field name="model">lmm.vehicle</field>
     <field name="arch" type="xml">
       <tree string="lmm_vehicles Tree">

@@ -128,6 +128,6 @@
           name="Cell Chips"
           parent="lmm_menu"
           action="cell_chip_list_action"
-          sequence="1"
+          sequence="2"
   />
 </odoo>

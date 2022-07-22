@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <record model="ir.ui.view" id="platform_list_form_view">
-    <field name="name">platform_list.form</field>
+    <field name="name">Platform Form</field>
     <field name="model">lmm.platforms_list</field>
     <field name="arch" type="xml">
       <form string="Gps Platform list Form">
@@ -25,7 +25,7 @@
   </record>
 
   <record model="ir.ui.view" id="platform_list_search_view">
-    <field name="name">platform_list.search</field>
+    <field name="name">Platforms Search</field>
     <field name="model">lmm.platforms_list</field>
     <field name="arch" type="xml">
       <search>
@@ -37,7 +37,7 @@
   </record>
 
   <record model="ir.ui.view" id="platform_list_tree_view">
-    <field name="name">platform_list.tree</field>
+    <field name="name">Platform Tree</field>
     <field name="model">lmm.platforms_list</field>
     <field name="arch" type="xml">
       <tree string="Platform List Tree">

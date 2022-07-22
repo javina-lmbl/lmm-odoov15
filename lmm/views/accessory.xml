@@ -108,6 +108,6 @@
           name="Accessories"
           parent="lmm_menu"
           action="lmm_accessory_list_action"
-          sequence="2"
+          sequence="3"
   />
 </odoo>

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <record id="seq_characterization" model="ir.sequence">
-    <field name="name">Characterization Sequence</field>
-    <field name="code">lmm.characterization</field>
-    <field name="prefix">CT</field>
-    <field name="padding">12</field>
-    <field name="company_id" eval="False"/>
-  </record>
 
   <record model="ir.ui.view" id="lmm_characterization_form_view">
     <field name="name">Characterization Form</field>
