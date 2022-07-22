@@ -58,7 +58,6 @@ class CellChip(models.Model):
     # Número de Serie
     line_number_id = fields.Many2one(
         comodel_name="stock.production.lot",
-        required=True,
         string=_("SIMCARD"),
         index=True,
     )

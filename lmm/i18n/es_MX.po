@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-17 03:45+0000\n"
-"PO-Revision-Date: 2022-07-17 03:45+0000\n"
+"POT-Creation-Date: 2022-07-22 18:16+0000\n"
+"PO-Revision-Date: 2022-07-22 18:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -438,7 +438,7 @@ msgstr "Información del Chip"
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__cell_chip_id
 #, python-format
 msgid "Cell Chip Number"
-msgstr "Número de Chip"
+msgstr "Nùmero de Chip"
 
 #. module: lmm
 #: model:ir.actions.act_window,name:lmm.cell_chip_list_action
@@ -730,7 +730,7 @@ msgstr "Diferencia"
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__disengagement_sensor
 #, python-format
 msgid "Disengagement Sensor"
-msgstr "Sensore de desenganche"
+msgstr "Sensor de desenganche"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__display_name
@@ -2513,7 +2513,7 @@ msgstr "Vehículo Información"
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__name
 #, python-format
 msgid "Vehicle Type"
-msgstr "Tipod de Vehículo"
+msgstr "Tipo de Vehículo"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_type_list_tree_view
@@ -2523,7 +2523,7 @@ msgstr "Lista de tipos de vehículos"
 #. module: lmm
 #: model:ir.ui.menu,name:lmm.gps_devices_menu
 msgid "Vehicle Types"
-msgstr "Lista de Tipo de Vehículo"
+msgstr "Lista de tipos de Vehículo"
 
 #. module: lmm
 #: model:ir.ui.menu,name:lmm.lmm_vehicles_menu
@@ -2549,7 +2549,7 @@ msgstr "Tipos de Vehículos"
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__voice
 msgid "Voice"
-msgstr "Vos"
+msgstr "Voz"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
@@ -2558,7 +2558,7 @@ msgstr "Vos"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__volts
 #, python-format
 msgid "Volts"
-msgstr "Volts"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
@@ -2575,7 +2575,7 @@ msgstr "Volumen"
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
 msgid "Warranty"
-msgstr "Garamtía"
+msgstr "Garantía"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
@@ -2583,7 +2583,7 @@ msgstr "Garamtía"
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_end_date
 #, python-format
 msgid "Warranty End Date"
-msgstr "Fin de garantñia"
+msgstr "Fin de garantía"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
@@ -2735,38 +2735,38 @@ msgstr ""
 #. module: lmm
 #: model:ir.actions.act_window,name:lmm.lmm_vehicle_type_list_action
 msgid "lmm.vehicle.type.list"
-msgstr ""
+msgstr "Lista de Tipos de Vehículos"
 
 #. module: lmm
 #: model:ir.actions.act_window,name:lmm.lmm_vehicle_list_action
 msgid "lmm_vehicles"
-msgstr ""
+msgstr "Vehículos"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_tree_view
 msgid "lmm_vehicles Tree"
-msgstr ""
+msgstr "Liasta de Vehículos"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position1
 #, python-format
 msgid "position 1"
-msgstr ""
+msgstr "Posición 1"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position2
 #, python-format
 msgid "position 2"
-msgstr ""
+msgstr "Posición 2"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position3
 #, python-format
 msgid "position 3"
-msgstr ""
+msgstr "Posición 3"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_sensor.py:0
