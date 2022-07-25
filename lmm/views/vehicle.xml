@@ -21,7 +21,7 @@
                     type="action"
                     attrs="{'invisible': [('devices_count', '&lt;', 1)]}"
                     name="%(lmm_device_list_action)d"
-                    context="{'default_vehicle_id': active_id}">
+                    context="{'default_vehicle_id': active_id, 'default_device_ids': device_ids}">
               <field string="Devices" name="devices_count" widget="statinfo" />
             </button>
             <button
