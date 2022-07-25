@@ -27,6 +27,7 @@
                                 <field name="name"/>
                                 <field name="nick"/>
                                 <field name="imei"/>
+                                <field name="vehicle_id"/>
                                 <field name="platform_list_id"/>
                                 <field name="device_pin"/>
                             </group>
@@ -134,6 +135,8 @@
                     <field name="installation_date"/>
                     <field name="product_id"/>
                     <field name="warranty_end_date"/>
+                    <field name="dealer_id" />
+                    <field name="vehicle_id"/>
                 </tree>
             </field>
         </record>
@@ -150,6 +153,8 @@
                     <field name="imei"/>
                     <field name="installation_date"/>
                     <field name="product_id"/>
+                    <field name="dealer_id" />
+                    <field name="vehicle_id"/>
                     <field name="message_ids" string="Chatter Messages" filter_domain="[('message_ids.body', 'ilike', self)]"/>
                     <group expand="1" string="Group By">
                         <filter string="Product" name="productt" context="{'group_by':'product_id'}"/>
