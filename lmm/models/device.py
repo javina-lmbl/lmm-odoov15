@@ -266,6 +266,10 @@ class Device(models.Model):
         tracking=True,
     )
 
+    wid = fields.Integer(
+        string=_('Wialon ID')
+    )
+
     vehicle_id = fields.Many2one(
         comodel_name="lmm.vehicle",
         ondelete="set null",

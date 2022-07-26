@@ -19,7 +19,7 @@ class Characterization(models.Model):
 
     fuel_sensor_id = fields.Many2one(
         comodel_name="lmm.fuel_sensor",
-        required=False,
+        required=True,
         string=_("Sensor"),
     )
 

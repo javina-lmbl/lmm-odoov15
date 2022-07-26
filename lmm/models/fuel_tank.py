@@ -40,11 +40,10 @@ class FuelTank(models.Model):
         string=_('Volume')
     )    
 
-    position = fields.Selection([
-        ('position1', _('position 1')),
-        ('position2', _('position 2')),
-        ('position3', _('position 3'))
-    ])    
+    position = fields.Integer(
+        string=_('Position'),
+        default=0
+    )
 
     vehicle_id = fields.Many2one(
         comodel_name="lmm.vehicle",
