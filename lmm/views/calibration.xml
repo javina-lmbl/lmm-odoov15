@@ -38,6 +38,8 @@
               <separator/>
               <field name="method"/>
               <field name="correction"/>
+              <field name="volt_min"/>
+              <field name="volt_max"/>
             </group>
           </group>
           <notebook>
@@ -89,6 +91,8 @@
         <field name="fuel_sensor_id"/>
         <field name="method"/>
         <field name="correction"/>
+        <field name="volt_min"/>
+        <field name="volt_max"/>
       </tree>
     </field>
   </record>

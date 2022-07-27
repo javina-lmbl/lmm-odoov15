@@ -49,6 +49,16 @@ class FuelCalibration(models.Model):
         compute='_compute_calibration_results_count',
     )
 
+    volt_min = fields.Float(
+        digits=(16, 2),
+        string=_('Volt min')
+    )
+
+    volt_max = fields.Float(
+        digits=(16, 2),
+        string=_('Volt max')
+    )
+
     def _compute_calibration_results_count(self):
         for rec in self:
             rec.calibration_results_count = self.env['lmm.calibration_results'].search_count(
