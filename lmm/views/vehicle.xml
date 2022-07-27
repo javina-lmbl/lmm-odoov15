@@ -20,8 +20,8 @@
                     icon="fa-map-marker"
                     type="action"
                     attrs="{'invisible': [('devices_count', '&lt;', 1)]}"
-                    name="%(lmm_device_list_action)d"
-                    domain="[('vehicle_id','=', vehicle_id.id)]"
+                    name="action_view_devices"
+                    domain="[('vehicle_id','=', active_id)]"
                     context="{'default_dealer_id': client_id, 'default_vehicle_id': active_id}">
 
               <field string="Devices" name="devices_count" widget="statinfo" />

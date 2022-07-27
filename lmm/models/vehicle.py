@@ -145,6 +145,13 @@ class Vehicle(models.Model):
                 [('vehicle_id', '=', rec.id)]
             )
 
+    def action_view_devices(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm_device_list_action')
+        action['context'] = {'dealer_id': self.client_id, 'vehicle_id': self.id}
+        action['domain'] = [('vehicle_id.id', '=', self.id)]
+
+        return action
+
     @api.model
     def create(self, vals):
         seq = self.env['ir.sequence'].next_by_code('lmm.vehicle') or _('New')
