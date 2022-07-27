@@ -20,7 +20,7 @@
                     icon="fa-map-marker"
                     type="action"
                     attrs="{'invisible': [('devices_count', '&lt;', 1)]}"
-                    name="action_view_devices"
+                    name="%(lmm_device_list_action)d"
                     domain="[('vehicle_id','=', active_id)]"
                     context="{'default_dealer_id': client_id, 'default_vehicle_id': active_id}">
 
