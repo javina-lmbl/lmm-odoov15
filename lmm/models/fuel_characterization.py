@@ -35,6 +35,16 @@ class Characterization(models.Model):
         string=_("Characterization"),
     )
 
+    volt_min = fields.Float(
+        digits=(16, 2),
+        string=_('Volt min')
+    )
+
+    volt_max = fields.Float(
+        digits=(16, 2),
+        string=_('Volt max')
+    )
+
     def copy(self, default=None):
         default = dict(default or {})
 

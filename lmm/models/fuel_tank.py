@@ -1,11 +1,21 @@
 # -*- coding: utf-8 -*-
 from odoo import api, models, fields, _
 
+import logging
+_logger = logging.getLogger(__name__)
+
 
 class FuelTank(models.Model):
     _inherit = ['mail.thread', 'mail.activity.mixin']
     _name = 'lmm.fuel_tank'
     _description = 'Vehicle Fuel Tanks'
+
+    def _display_available_sensors(self):
+        available_sensors = self.env['lmm.fuel_sensor'].search([('fuel_tank_id', '=', False)])
+        _logger.warning('available_sensors: %s', available_sensors)
+        _logger.warning('ids: %s', available_sensors.ids)
+
+        return [('id', 'in', available_sensors.ids)]
 
     name = fields.Char(
         required=True,
@@ -56,6 +66,7 @@ class FuelTank(models.Model):
     fuel_sensor_id = fields.Many2one(
         comodel_name="lmm.fuel_sensor",
         string=_("Fuel Sensor Installed"),
+        domain=lambda self: self._display_available_sensors(),
         index=True,
         tracking=True
     )
