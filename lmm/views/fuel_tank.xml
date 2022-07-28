@@ -71,6 +71,7 @@
         <field name="length"/>
         <field name="volume"/>
         <field name="gasket"/>
+        <field name="position"/>
       </tree>
     </field>
   </record>

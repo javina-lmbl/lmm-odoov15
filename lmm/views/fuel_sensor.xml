@@ -53,6 +53,7 @@
         <field name="name"/>
         <field name="product_id"/>
         <field name="fuel_tank_id"/>
+        <field name="serial_number_id"/>
       </search>
     </field>
   </record>
