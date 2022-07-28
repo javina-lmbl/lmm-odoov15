@@ -50,6 +50,16 @@
         <field name="volts"/>
         <field name="adc"/>
         <field name="volume"/>
+        <group expand="0" string="Group By">
+          <filter
+                  name="group_calibration_id"
+                  string="By Calibration"
+                  icon="terp-partner"
+                  domain="[]"
+                  context="{'group_by':'calibration_id'}"
+          />
+          <separator orientation="vertical" />
+        </group>
       </search>
     </field>
   </record>
@@ -73,6 +83,7 @@
     <field name="name">Calibration Results</field>
     <field name="res_model">lmm.calibration_results</field>
     <field name="view_mode">tree,form</field>
+    <field name="context">{'search_default_group_calibration_id': 1}</field>
   </record>
 
   <menuitem

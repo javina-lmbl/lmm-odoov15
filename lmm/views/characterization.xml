@@ -67,6 +67,6 @@
           name="Characterization"
           parent="fuel_characterization_section_menu"
           action="lmm_characterization_list_action"
-          sequence="1"
+          sequence="2"
   />
 </odoo>

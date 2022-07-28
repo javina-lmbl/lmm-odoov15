@@ -83,8 +83,8 @@
   <menuitem
           id="fuel_sensor_menu"
           name="Fuel Sensors"
-          parent="lmm_vehicles_menu"
+          parent="fuel_sensors_section_menu"
           action="lmm_fuel_sensor_list_action"
-          sequence="4"
+          sequence="1"
   />
 </odoo>

@@ -39,7 +39,18 @@
       <search>
         <field name="fuel_characterization_id"/>
         <field name="size"/>
-        <field name="volts"/>       
+        <field name="volts"/>
+
+        <group expand="1" string="Group By">
+          <filter
+                  name="group_fuel_characterization_id"
+                  string="By Characterization"
+                  icon="terp-partner"
+                  domain="[]"
+                  context="{'group_by':'fuel_characterization_id'}"
+          />
+          <separator orientation="vertical" />
+        </group>
       </search>
     </field>
   </record>
@@ -61,6 +72,7 @@
     <field name="name">characterization_details</field>
     <field name="res_model">lmm.characterization_detail</field>
     <field name="view_mode">tree,form</field>
+    <field name="context">{'search_default_group_fuel_characterization_id': 1}</field>
   </record>
 
   <menuitem
@@ -68,6 +80,6 @@
           name="Characterization Details"
           parent="fuel_characterization_section_menu"
           action="lmm_characterization_detail_list_action"
-          sequence="2"
+          sequence="3"
   />
 </odoo>
