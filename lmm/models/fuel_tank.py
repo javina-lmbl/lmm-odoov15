@@ -12,9 +12,6 @@ class FuelTank(models.Model):
 
     def _display_available_sensors(self):
         available_sensors = self.env['lmm.fuel_sensor'].search([('fuel_tank_id', '=', False)])
-        _logger.warning('available_sensors: %s', available_sensors)
-        _logger.warning('ids: %s', available_sensors.ids)
-
         return [('id', 'in', available_sensors.ids)]
 
     name = fields.Char(

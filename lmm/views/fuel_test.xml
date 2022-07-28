@@ -22,7 +22,7 @@
                     attrs="{'invisible': [('fuel_test_samples_count', '&lt;', 1)]}"
                     name="%(lmm_fuel_test_sample_list_action)d"
                     context="{'default_fuel_test_id': active_id}">
-              <field string="Samples" name="fuel_test_samples_count" widget="statinfo" />
+              <field string="Samples" name="fuel_test_samples_count" widget="statinfo"/>
             </button>
           </div>
 
@@ -40,7 +40,7 @@
           </group>
         <notebook>
             <page string="Test Samples">
-              <field name="fuel_test_samples_ids" widget="many2many" options="{'no_create': True}"/>
+              <field name="fuel_test_samples_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly':True}"/>
             </page>
           </notebook>
         </sheet>
