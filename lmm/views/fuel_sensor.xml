@@ -14,6 +14,18 @@
     <field name="arch" type="xml">
       <form string="Fuel Sensor Form">
         <sheet>
+          <div name="button_box" class="oe_button_box">
+            <button
+                    class="oe_stat_button o_res_partner_tip_opp"
+                    icon="fa-file"
+                    type="object"
+                    attrs="{'invisible': [('characterization_count', '&lt;', 1)]}"
+                    name="action_view_characterizations"
+                    context="{'fuel_sensor_id': active_id}">
+
+              <field string="Characterizations" name="characterization_count" widget="statinfo" />
+            </button>
+          </div>
           <group>
             <group string="Fuel Sensor Info">
               <separator/>
@@ -31,6 +43,9 @@
           <notebook>
             <page string="Fuel Tanks">
               <field name="fuel_tank_id" attrs="{'readonly': True}"/>
+            </page>
+            <page string="Characterization">
+              <field name="fuel_characterization_id"/>
             </page>
           </notebook>
         </sheet>

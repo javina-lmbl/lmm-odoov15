@@ -10,11 +10,15 @@
         </header>
         <sheet>
           <group>
-            <field name="name"/>
-            <field name="fuel_sensor_id"/>
-            <field name="serial_number"/>
-            <field name="volt_min"/>
-            <field name="volt_max"/>
+            <group string="Details">
+              <field name="name"/>
+              <field name="fuel_sensor_id"/>
+              <field name="serial_number"/>
+            </group>
+            <group string="More Info">
+              <field name="volt_min"/>
+              <field name="volt_max"/>
+            </group>
           </group>
           <notebook>
             <page string="Characterization Details">

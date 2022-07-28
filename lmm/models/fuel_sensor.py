@@ -64,6 +64,30 @@ class FuelSensor(models.Model):
         string=_("Fuel Tank"),
     )
 
+    fuel_characterization_id = fields.One2many(
+        comodel_name="lmm.characterization",
+        inverse_name="fuel_sensor_id",
+        string=_("Characterization"),
+    )
+
+    characterization_count = fields.Integer(
+        string=_("Characterizations Count"),
+        compute='_compute_characterization_count',
+    )
+    
+    def _compute_characterization_count(self):
+        for rec in self:
+            rec.characterization_count = self.env['lmm.characterization'].search_count(
+                [('fuel_sensor_id', '=', rec.id)]
+            )
+
+    def action_view_characterizations(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_characterization_list_action')
+        action['context'] = {'active_test': False}
+        action['context'] = {'fuel_sensor_id': self.id}
+        action['domain'] = [('fuel_sensor_id.id', '=', self.id)]
+        return action
+
     @api.model
     def create(self, vals):
         seq = self.env['ir.sequence'].next_by_code('lmm.fuel_sensor') or _('New')
