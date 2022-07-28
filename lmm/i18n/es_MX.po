@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-22 18:16+0000\n"
-"PO-Revision-Date: 2022-07-22 18:16+0000\n"
+"POT-Creation-Date: 2022-07-28 20:58+0000\n"
+"PO-Revision-Date: 2022-07-28 20:58+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,9 +41,13 @@ msgid "12"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__warranty_term__12
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__12
+msgid "12 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #, python-format
 msgid "12 months"
 msgstr "12 meses"
@@ -59,8 +63,12 @@ msgid "18"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/device.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__18
+msgid "18 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "18 months"
 msgstr "18 meses"
@@ -86,8 +94,12 @@ msgid "24"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/device.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__24
+msgid "24 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "24 months"
 msgstr "24 meses"
@@ -98,8 +110,12 @@ msgid "2MB"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/device.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_device__warranty_term__36
+msgid "36 meses"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "36 months"
 msgstr "36 meses"
@@ -138,8 +154,6 @@ msgstr ""
 #. module: lmm
 #: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
 #: model:ir.actions.act_window,name:lmm.lmm_accessory_list_action
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessory_ids
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessory_ids
 #: model:ir.ui.menu,name:lmm.lmm_accessory_menu
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
@@ -149,8 +163,6 @@ msgstr "Accessorios"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessories_count
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessories_count
 #, python-format
 msgid "Accessories Count"
 msgstr "Accessorios"
@@ -164,6 +176,14 @@ msgstr "Accessorios Lista"
 #: model:ir.model,name:lmm.model_lmm_accessory
 msgid "Accessories module"
 msgstr "Accessorios"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessories_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__accessory_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessories_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__accessory_ids
+msgid "Accessorios"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
@@ -201,7 +221,6 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activation_date
 #, python-format
 msgid "Activation Date"
 msgstr "Fecha de Activación"
@@ -211,10 +230,7 @@ msgstr "Fecha de Activación"
 #: code:addons/lmm/models/vehicle.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__active
 #: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__active
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__active
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__active
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__active
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__active
 #, python-format
 msgid "Active"
 msgstr "Activo"
@@ -292,6 +308,13 @@ msgid "Activity Type Icon"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__active
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__active
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__active
+msgid "Activo"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.platform_list_search_view
 msgid "Activos"
 msgstr ""
@@ -309,11 +332,25 @@ msgid "Add a note about this vehicle"
 msgstr "Añadir una nota"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__amorphous
+msgid "Amorfo"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__anti_jammer_blocker
 #, python-format
 msgid "Anti Jammer Blocker"
 msgstr "Bloqueador Anti Jammer"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__client_id
+msgid "Asignada a"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__device_id
+msgid "Asignado a"
+msgstr ""
 
 #. module: lmm
 #: model:ir.ui.menu,name:lmm.lmm_menu
@@ -322,14 +359,12 @@ msgstr "Activos"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__device_id
 #, python-format
 msgid "Assigned To"
 msgstr "Asignado a"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__client_id
 #, python-format
 msgid "Assigned to"
 msgstr "Asignado a"
@@ -353,41 +388,83 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__year
+msgid "Año"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__backup
 #, python-format
 msgid "Backup"
 msgstr "Respaldo"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__drop
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__drop
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__drop
+msgid "Baja"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__blocker
 #, python-format
 msgid "Blocker"
 msgstr "Bloqueador"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__blocker
+msgid "Bloqueador"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__anti_jammer_blocker
+msgid "Bloqueador Anti Jammer"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__smart_blocker
+msgid "Bloqueador Inteligente"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__speaker
+msgid "Bocicna"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__borrowed
 #, python-format
 msgid "Borrowed"
 msgstr "Prestado"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__brand
 #, python-format
 msgid "Brand"
 msgstr "Marca"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_search_view
+msgid "By Calibration"
+msgstr "Calibración"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_detail_search_view
+msgid "By Characterization"
+msgstr "Caracterización"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__calibration_id
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__calibrator
+msgid "Calibración"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/calibration_results.py:0
 #: model:ir.model,name:lmm.model_lmm_calibration
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__name
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__calibration_id
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__calibrator
 #: model:ir.ui.menu,name:lmm.fuel_calibration_menu
 #: model:ir.ui.menu,name:lmm.lmm_calibration_menu
 #, python-format
@@ -403,7 +480,6 @@ msgstr "Formulario de Calibración"
 #: code:addons/lmm/models/calibration.py:0
 #: model:ir.actions.act_window,name:lmm.lmm_calibration_results_list_action
 #: model:ir.model,name:lmm.model_lmm_calibration_results
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_ids
 #: model:ir.ui.menu,name:lmm.fuel_calibration_results_menu
 #, python-format
 msgid "Calibration Results"
@@ -411,17 +487,28 @@ msgstr "Resultados de Calibración"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_count
 #, python-format
 msgid "Calibration Results Count"
 msgstr "Resultados de Calibración"
 
 #. module: lmm
-#: code:addons/lmm/models/cell_chip.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__cancelled
+msgid "Cancelado"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/cell_chip.py:0
 #, python-format
 msgid "Cancelled"
 msgstr "Cancelado"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__fuel_characterization_detail_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__fuel_characterization_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__fuel_characterization_id
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__characterization
+msgid "Caracterización"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
@@ -435,7 +522,6 @@ msgstr "Información del Chip"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__cell_chip_id
 #, python-format
 msgid "Cell Chip Number"
 msgstr "Nùmero de Chip"
@@ -458,7 +544,6 @@ msgstr "Modelo de Chip"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__cell_chip_owner_id
 #, python-format
 msgid "Cellchip Owner"
 msgstr "Dueño del Chip"
@@ -467,11 +552,10 @@ msgstr "Dueño del Chip"
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
 #: model:ir.model,name:lmm.model_lmm_characterization
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__fuel_characterization_detail_ids
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__fuel_characterization_id
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__characterization
 #: model:ir.ui.menu,name:lmm.characterization_menu
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
 #, python-format
 msgid "Characterization"
 msgstr "Caracterización"
@@ -496,12 +580,19 @@ msgstr "Caracterización Formulario"
 #. module: lmm
 #: model:ir.actions.act_window,name:lmm.lmm_characterization_list_action
 #: model:ir.ui.menu,name:lmm.fuel_characterization_section_menu
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
 msgid "Characterizations"
 msgstr "Caracterizaciones"
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_sensor.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__characterization_count
+#, python-format
+msgid "Characterizations Count"
+msgstr "Caracterizaciones"
+
+#. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vin_sn
 #, python-format
 msgid "Chassis Number"
 msgstr "Numero de chasis"
@@ -525,29 +616,43 @@ msgid "CiertoT"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__cylindrical
+msgid "Cilíndrico"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__client_id
 #, python-format
 msgid "Client"
 msgstr "Cliente"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__client_id
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Cliente"
 msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__collective
 #, python-format
 msgid "Collective"
-msgstr "Collectivos"
+msgstr "Collectivo"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__collective
+msgid "Collectivos"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_color
 #, python-format
 msgid "Color"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__fuel
+msgid "Combustible"
 msgstr ""
 
 #. module: lmm
@@ -569,14 +674,17 @@ msgstr "Configuraciones"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__correction
 #, python-format
 msgid "Correction"
 msgstr "Factor de correción"
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__courtesy
+msgid "Cortesía"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
 #, python-format
 msgid "Courtesy"
 msgstr "Cortesía"
@@ -618,27 +726,34 @@ msgid "Created on"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__major_account
+msgid "Cuenta Padre"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__line_account
+msgid "Cuenta de Líneas"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
 msgid "Data"
 msgstr "Información"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__datetime_gps
 #, python-format
 msgid "DateTime GPS"
 msgstr "Fecha GPS"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__datetime_server
 #, python-format
 msgid "DateTime Server"
 msgstr "Fecha Servidor"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__dealer_id
 #, python-format
 msgid "Dealer"
 msgstr "Distribuidor"
@@ -659,9 +774,17 @@ msgid "Description"
 msgstr "Descripción"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__uninstalled
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__uninstalled
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__uninstalled
+msgid "Desinstalado"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
 msgid "Details"
@@ -669,7 +792,6 @@ msgstr "Detalles"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__device_id
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
 #, python-format
 msgid "Device"
@@ -682,7 +804,6 @@ msgstr "Dispositivos Información"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__device_pin
 #, python-format
 msgid "Device PIN"
 msgstr "PIN"
@@ -696,7 +817,6 @@ msgstr "Dispositivos"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__devices_count
 #, python-format
 msgid "Devices Count"
 msgstr "Dispositivos"
@@ -713,21 +833,23 @@ msgstr "Dispositivos Lista"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__diameter
 #, python-format
 msgid "Diameter"
 msgstr "Diámetro"
 
 #. module: lmm
-#: code:addons/lmm/models/fuel_test_samples.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__diff
+msgid "Diferencia"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
 #, python-format
 msgid "Diff"
 msgstr "Diferencia"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__disengagement_sensor
 #, python-format
 msgid "Disengagement Sensor"
 msgstr "Sensor de desenganche"
@@ -751,14 +873,53 @@ msgid "Display Name"
 msgstr "Nombre a mostrar"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__name
+msgid "Dispositivo GPS"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__device_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__devices_count
+msgid "Dispositivos"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__device_ids
+msgid "Dispositivos GPS"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__dealer_id
+msgid "Distribuidor"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__diameter
+msgid "Diámetro"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__drop
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__drop
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__drop
 #, python-format
 msgid "Drop"
 msgstr "Baja"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__client_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__client_id
+msgid "Dueño"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__cell_chip_owner_id
+msgid "Dueño del Chip"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__days_suspended
+msgid "Días transcurridos"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
@@ -768,18 +929,38 @@ msgid "Efecto Hall"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__vin_sn
+msgid "El número de serie de motor debe ser único"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__electronics
 #, python-format
 msgid "Electronics"
 msgstr "Tarjeta Electrónica"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__gasket
+msgid "Empaque"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__in_repair
+msgid "En Reparación"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__end_forced_plan_date
 #, python-format
 msgid "End Forced Plan Date"
 msgstr "Fin de plan forsozo"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__status
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__operative_status
+msgid "Estado"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
@@ -789,15 +970,40 @@ msgid "Estatus"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__operative_status
+msgid "Estatus Operativo"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__external
 #, python-format
 msgid "External"
-msgstr "Externo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__external
+msgid "Externo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__correction
+msgid "Factor de correción"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__provider_invoice
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__invoice_id
+msgid "Factura de Proveedor"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 msgid "Fecha Compra"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__datetime_gps
+msgid "Fecha GPS"
 msgstr ""
 
 #. module: lmm
@@ -806,8 +1012,47 @@ msgid "Fecha Instalación"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__datetime_server
+msgid "Fecha Servidor"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activation_date
+msgid "Fecha de Activación"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status_date
+msgid "Fecha de Estatus"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__purchase_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__purchase_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__purchase_date
+msgid "Fecha de compra"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__installation_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__installation_date
+msgid "Fecha de instalación"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_search_view
 msgid "Fin de Garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_end_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_end_date
+msgid "Fin de garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__end_forced_plan_date
+msgid "Fin de plan forsozo"
 msgstr ""
 
 #. module: lmm
@@ -873,23 +1118,18 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0 code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__for_installing
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__for_installing
 #, python-format
 msgid "For Installing"
 msgstr "Por Instalar"
 
 #. module: lmm
-#: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__fuel
-#: model:ir.ui.menu,name:lmm.lmm_fuel_menu
+#: code:addons/lmm/models/device.py:0 model:ir.ui.menu,name:lmm.lmm_fuel_menu
 #, python-format
 msgid "Fuel"
 msgstr "Combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_count
 #, python-format
 msgid "Fuel Samples Count"
 msgstr "Muestras de Combustible"
@@ -897,7 +1137,6 @@ msgstr "Muestras de Combustible"
 #. module: lmm
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #: model:ir.model,name:lmm.model_lmm_fuel_sensor
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_sensor_id
 #, python-format
 msgid "Fuel Sensor"
 msgstr "Sensor de combustible"
@@ -915,8 +1154,6 @@ msgstr "Sensor de combustible Información"
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__fuel_sensor_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__fuel_sensor_id
 #, python-format
 msgid "Fuel Sensor Installed"
 msgstr "Sensor de Combustible Instalado"
@@ -924,6 +1161,7 @@ msgstr "Sensor de Combustible Instalado"
 #. module: lmm
 #: model:ir.actions.act_window,name:lmm.lmm_fuel_sensor_list_action
 #: model:ir.ui.menu,name:lmm.fuel_sensor_menu
+#: model:ir.ui.menu,name:lmm.fuel_sensors_section_menu
 msgid "Fuel Sensors"
 msgstr "Sensores de combustible"
 
@@ -931,8 +1169,6 @@ msgstr "Sensores de combustible"
 #: code:addons/lmm/models/fuel_sensor.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #: model:ir.actions.act_window,name:lmm.lmm_fuel_tank_list_action
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__fuel_tank_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_tank_id
 #, python-format
 msgid "Fuel Tank"
 msgstr "Tanque de combustible"
@@ -945,8 +1181,6 @@ msgstr "Tanque de combustible Formulario"
 #. module: lmm
 #: code:addons/lmm/models/fuel_sensor.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__name
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__name
 #, python-format
 msgid "Fuel Tank Id"
 msgstr "Tanque de combustible"
@@ -958,7 +1192,6 @@ msgstr "Tanque de combustible Información"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_ids
 #: model:ir.ui.menu,name:lmm.fuel_tank_menu
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
@@ -968,28 +1201,24 @@ msgstr "Tanques de combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_count
 #, python-format
 msgid "Fuel Tanks Count"
 msgstr "Tanques de combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test_samples.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_test_id
 #, python-format
 msgid "Fuel Test"
 msgstr "Pruebas de Combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test_samples.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__name
 #, python-format
 msgid "Fuel Test Sample"
 msgstr "Muestra de combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__name
 #: model:ir.ui.menu,name:lmm.fuel_tests_section_menu
 #, python-format
 msgid "Fuel Tests"
@@ -1031,13 +1260,17 @@ msgid "Fuel tests Tree"
 msgstr "Lista de Pruebas de Combustible"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__out_of_service
+msgid "Fuera de Servicio"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 msgid "Functions"
 msgstr "Funciones"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__name
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
 #, python-format
 msgid "GPS Device"
@@ -1050,14 +1283,12 @@ msgstr "Gps donde esta el chip"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__device_ids
 #, python-format
 msgid "GPS Devices"
 msgstr "Dispositivos GPS"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__gasket
 #, python-format
 msgid "Gasket"
 msgstr "Empaque"
@@ -1070,6 +1301,8 @@ msgstr "Plataforma"
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_detail_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Group By"
 msgstr "Agrupado por"
@@ -1093,8 +1326,12 @@ msgid "Has Message"
 msgstr "Tiene Mensajes"
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__hibernate
+msgid "Hibernación"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0
 #, python-format
 msgid "Hibernate"
 msgstr "Hibernación"
@@ -1266,17 +1503,20 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__in_repair
 #, python-format
 msgid "In Repair"
 msgstr "En Reparación"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__inactive
 #, python-format
 msgid "Inactive"
 msgstr "Inactivo"
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__inactive
+msgid "Inactivo"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
@@ -1286,9 +1526,27 @@ msgid "Info"
 msgstr "Información"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_start_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_start_date
+msgid "Inicio de Garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__installed
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__installed
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__installed
+msgid "Instalado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__vehicle_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__device_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__vehicle_id
+msgid "Instalado en"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__installation_date
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__installation_date
 #, python-format
 msgid "Installation Date"
 msgstr "Fecha de instalación"
@@ -1296,9 +1554,6 @@ msgstr "Fecha de instalación"
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__installed
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__installed
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__installed
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
 #, python-format
 msgid "Installed"
@@ -1307,9 +1562,6 @@ msgstr "Instalado"
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/account.py:0
 #: code:addons/lmm/models/cell_chip.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__vehicle_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__device_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__vehicle_id
 #, python-format
 msgid "Installed On"
 msgstr "Instalado en"
@@ -1319,20 +1571,20 @@ msgstr "Instalado en"
 #: code:addons/lmm/models/calibration_results.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__name
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__name
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__name
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__name
 #, python-format
 msgid "Internal Id"
 msgstr "Referencia Interna"
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: code:addons/lmm/models/fuel_sensor.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__inventory
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__inventory
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__inventory
+msgid "Inventario"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/fuel_sensor.py:0
 #, python-format
 msgid "Inventory"
 msgstr "Inventario"
@@ -1359,6 +1611,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__iusacell
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 msgid "Iusacell"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__pattern_jug
+msgid "Jarra Patrón"
 msgstr ""
 
 #. module: lmm
@@ -1412,14 +1669,12 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__last_position
 #, python-format
 msgid "Last Position"
 msgstr "Última posición"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__last_report
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 #, python-format
 msgid "Last Report"
@@ -1463,43 +1718,48 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__length
 #, python-format
 msgid "Length"
 msgstr "Longitud"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,help:lmm.field_lmm_vehicle__registration_plate
 #, python-format
 msgid "License plate number of the vehicle (i = plate number for a car)"
 msgstr "Placas del Vehículo"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__line_account
 #, python-format
 msgid "Line Account"
 msgstr "Cuenta de Líneas"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__name
 #, python-format
 msgid "Line Number"
 msgstr "Número de Línea"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__term
 #, python-format
 msgid "Line Terms"
 msgstr "Términos de Línea"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__ready
+msgid "Lista para instalar"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__platform_list_id
+msgid "Listado de Plataformas"
+msgstr ""
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 msgid "Location Info"
-msgstr ""
+msgstr "Posicionamiento"
 
 #. module: lmm
 #: model:ir.model,name:lmm.model_lmm_device
@@ -1516,6 +1776,11 @@ msgstr "Logica Mobile México módulo de lista de plataformas GPS"
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__logistic
 #, python-format
 msgid "Logistic"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__length
+msgid "Longitud"
 msgstr ""
 
 #. module: lmm
@@ -1542,8 +1807,12 @@ msgid "Map"
 msgstr "Mapa"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__brand
+msgid "Marca"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__major_account
 #, python-format
 msgid "Mayor Accounte"
 msgstr "Cuenta Padre"
@@ -1592,27 +1861,35 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__method
 #, python-format
 msgid "Method"
 msgstr "Método"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__microphone
 #, python-format
 msgid "Microphone"
 msgstr "Micrófono"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__microphone
+msgid "Micrófono"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_model
 #, python-format
 msgid "Model"
+msgstr "Modelo"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_model
+msgid "Modelo"
 msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
 msgid "More Info"
@@ -1622,6 +1899,21 @@ msgstr "Más Información"
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__movistar
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 msgid "Movistar"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__name
+msgid "Muestra de combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_count
+msgid "Muestras de Combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_ids
+msgid "Muestras de pruebas"
 msgstr ""
 
 #. module: lmm
@@ -1643,6 +1935,11 @@ msgid "My Activity Deadline"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__method
+msgid "Método"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/accessory.py:0
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/calibration_results.py:0
@@ -1651,10 +1948,9 @@ msgstr ""
 #: code:addons/lmm/models/fuel_tank.py:0 code:addons/lmm/models/fuel_test.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__new
 #, python-format
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_calendar_event_id
@@ -1734,6 +2030,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__nick
 #, python-format
 msgid "Nick"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__new
+msgid "Nuevo"
 msgstr ""
 
 #. module: lmm
@@ -1827,15 +2128,41 @@ msgid "Number of unread messages"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vin_sn
+msgid "Numero de chasis"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__cell_chip_id
+msgid "Nùmero de Chip"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__name
+msgid "Número de Línea"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__sample_number
+msgid "Número de Muestra"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__serial_number_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__serial_number
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__serial_number_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__serial_number_id
+msgid "Número de Serie"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__opening_sensor
 #, python-format
 msgid "Opening Sensor"
 msgstr "Sensor de apertura"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__operative_status
 #, python-format
 msgid "Operative Status"
 msgstr "Estatus Operativo"
@@ -1847,32 +2174,47 @@ msgstr "Otras configuraciones"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__out_of_service
 #, python-format
 msgid "Out of Service"
 msgstr "Fuera de Servicio"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_sensor.py:0 code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__client_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__client_id
 #, python-format
 msgid "Owner"
 msgstr "Dueño"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__device_pin
+msgid "PIN"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__padlock
 #, python-format
 msgid "Padlock"
 msgstr "Teclado Numérico"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__solar_panel
+msgid "Panel Solar"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__pattern_jug
 #, python-format
 msgid "Pattern jug"
 msgstr "Jarra Patrón"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__registration_plate
+msgid "Placa"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_vehicle__registration_plate
+msgid "Placas del Vehículo"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__plan
@@ -1881,8 +2223,12 @@ msgid "Plan"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/platforms_list.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_platforms_list__name
+msgid "Plataforma"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/platforms_list.py:0
 #, python-format
 msgid "Platform"
 msgstr "Plataforma"
@@ -1905,15 +2251,27 @@ msgstr "Plataformas"
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
 #: model:ir.actions.act_window,name:lmm.platform_list_action
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__platform_list_id
 #, python-format
 msgid "Platforms List"
 msgstr "Listado de Plataformas"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__for_installing
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__for_installing
+msgid "Por Instalar"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__position
+#, python-format
 msgid "Position"
 msgstr "Posición"
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__borrowed
+msgid "Prestado"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
@@ -1924,9 +2282,6 @@ msgstr "Producto"
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__product_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__product_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__product_id
 #, python-format
 msgid "Product Type"
 msgstr "Tipo de Producto"
@@ -1954,18 +2309,30 @@ msgstr "Información de Proveedor"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__provider_invoice
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__invoice_id
 #, python-format
 msgid "Provider Invoice"
 msgstr "Factura de Proveedor"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__tests
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__tests
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__tests
+msgid "Pruebas"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_test_id
+msgid "Pruebas de Combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__name
+msgid "Pruebas de combustible"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/cell_chip.py:0
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__purchase_date
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__purchase_date
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__purchase_date
 #, python-format
 msgid "Purchase Date"
 msgstr "Fecha de compra"
@@ -1981,39 +2348,67 @@ msgid "RMA"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__tracking
+msgid "Rastreo"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__ready
 #, python-format
 msgid "Ready to Install"
 msgstr "Lista para instalar"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__rectangular
+msgid "Rectangular"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__replaced
+msgid "Reemplazado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__replacement
+msgid "Reemplazo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__name
+msgid "Referencia Interna"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__registration_plate
 #, python-format
 msgid "Registration Plate"
 msgstr "Placa"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__vehicle_id
 #, python-format
 msgid "Related Vehicle"
 msgstr "Vehículo asociado"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__replaced
 #, python-format
 msgid "Replaced"
 msgstr "Reemplazado"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__replacement
 #, python-format
 msgid "Replacement"
 msgstr "Reemplazo"
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__backup
+msgid "Respaldo"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_user_id
@@ -2032,6 +2427,12 @@ msgstr "Reemplazo"
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__activity_user_id
 msgid "Responsible User"
 msgstr "Usuario Responsable"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__calibration_results_ids
+msgid "Resultados de Calibración"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
@@ -2081,7 +2482,6 @@ msgstr "Detalles de las Muestras"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test_samples.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__sample_number
 #, python-format
 msgid "Sample No"
 msgstr "Número de Muestra"
@@ -2114,12 +2514,29 @@ msgid "Sensor"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__fuel_sensor_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__fuel_sensor_id
+msgid "Sensor de Combustible Instalado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__opening_sensor
+msgid "Sensor de apertura"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_sensor_id
+msgid "Sensor de combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__disengagement_sensor
+msgid "Sensor de desenganche"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__serial_number_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__serial_number
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__serial_number_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__serial_number_id
 #, python-format
 msgid "Serial Number"
 msgstr "Número de Serie"
@@ -2134,7 +2551,7 @@ msgstr "Servicios"
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__sheet
 #, python-format
 msgid "Sheet"
-msgstr ""
+msgstr "Chapa"
 
 #. module: lmm
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__simpacsys
@@ -2143,8 +2560,12 @@ msgid "Simpacsys"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/vehicle.py:0
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_vehicle__operative_status__sinister
+msgid "Siniestro"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/vehicle.py:0
 #, python-format
 msgid "Sinister"
 msgstr "Siniestro"
@@ -2153,9 +2574,6 @@ msgstr "Siniestro"
 #: code:addons/lmm/models/calibration_results.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__size
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__size
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__size
 #, python-format
 msgid "Size"
 msgstr "Tamaño"
@@ -2167,28 +2585,24 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__smart_blocker
 #, python-format
 msgid "Smart Blocker"
 msgstr "Bloqueador Inteligente"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__solar_panel
 #, python-format
 msgid "Solar Panel"
 msgstr "Panel Solar"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__sold
 #, python-format
 msgid "Sold"
 msgstr "Vendido"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__speaker
 #, python-format
 msgid "Speaker"
 msgstr "Bocicna"
@@ -2201,23 +2615,18 @@ msgstr "Estado"
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/cell_chip.py:0
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__status
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__operative_status
 #, python-format
 msgid "Status"
 msgstr "Estatus"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__status_date
 #, python-format
 msgid "Status Date"
 msgstr "Fecha de Estatus"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__days_suspended
 #, python-format
 msgid "Status Elpased Days"
 msgstr "Días transcurridos"
@@ -2246,24 +2655,57 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__suspended
 #, python-format
 msgid "Suspended"
 msgstr "Suspendido"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__status__suspended
+msgid "Suspendido"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__taken
 #, python-format
 msgid "Taken"
 msgstr "Utilizado"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__size
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__size
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__size
+msgid "Tamaño"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__fuel_tank_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_tank_id
+msgid "Tanque de combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_ids
+msgid "Tanques de combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__electronics
+msgid "Tarjeta Electrónica"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__technician
 #, python-format
 msgid "Technician"
 msgstr "Técnico"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__padlock
+msgid "Teclado Numérico"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__telcel
@@ -2272,8 +2714,12 @@ msgid "Telcel"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/device.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__temperature
+msgid "Temperatura"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "Temperature"
 msgstr "Temperatura"
@@ -2286,7 +2732,6 @@ msgstr "Términos"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__fuel_test_samples_ids
 #: model:ir.ui.menu,name:lmm.fuel_test_samples_menu
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
 #, python-format
@@ -2296,9 +2741,6 @@ msgstr "Muestras de pruebas"
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__tests
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__tests
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__tests
 #: model:ir.ui.menu,name:lmm.fuel_tests_menu
 #, python-format
 msgid "Tests"
@@ -2372,7 +2814,6 @@ msgstr "El tipo de diposisito no debe repetirse"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__assigned_tickets
 #, python-format
 msgid "Tickets Count"
 msgstr "Total de Tickets"
@@ -2389,15 +2830,31 @@ msgid "Time without reporting in platforms expressed in hours"
 msgstr "Tiempo sin reportar expresado en horas"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__product_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__product_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__product_id
+msgid "Tipo de Producto"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__name
+msgid "Tipo de Vehículo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__assigned_tickets
+msgid "Total de Tickets"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__tracking
 #, python-format
 msgid "Tracking"
 msgstr "Rastreo"
 
 #. module: lmm
-#: code:addons/lmm/models/account.py:0 code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__type
+#: code:addons/lmm/models/account.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__type
 #, python-format
 msgid "Type"
@@ -2422,18 +2879,30 @@ msgid "Type of the exception activity on record."
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__technician
+msgid "Técnico"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_term
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_term
+msgid "Términos de Garantía"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__term
+msgid "Términos de Línea"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__uninstalled
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_device__operative_status__uninstalled
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__state__uninstalled
 #, python-format
 msgid "Uninstalled"
 msgstr "Desinstalado"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,help:lmm.field_lmm_vehicle__vin_sn
 #, python-format
 msgid "Unique number written on the vehicle motor (VIN/SN number)"
 msgstr "El número de serie de motor debe ser único"
@@ -2475,16 +2944,18 @@ msgid "Unread Messages Counter"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__taken
+msgid "Utilizado"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0 code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__vehicle_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__name
 #, python-format
 msgid "Vehicle"
 msgstr "Vehículo"
 
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__description
 #, python-format
 msgid "Vehicle Description"
 msgstr "Vehículo Descripción"
@@ -2509,8 +2980,6 @@ msgstr "Vehículo Información"
 #. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
 #: code:addons/lmm/models/vehicle_type_list.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_type_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__name
 #, python-format
 msgid "Vehicle Type"
 msgstr "Tipo de Vehículo"
@@ -2547,9 +3016,48 @@ msgid "Vehicles Type Module"
 msgstr "Tipos de Vehículos"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__vehicle_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__name
+msgid "Vehículo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__description
+msgid "Vehículo Descripción"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__vehicle_id
+msgid "Vehículo asociado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_accessory__status__sold
+msgid "Vendido"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__voice
 msgid "Voice"
 msgstr "Voz"
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_max
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_max
+#, python-format
+msgid "Volt max"
+msgstr "Voltaje Máximo"
+
+#. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_min
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_min
+#, python-format
+msgid "Volt min"
+msgstr "Voltaje Mínimo"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
@@ -2558,17 +3066,21 @@ msgstr "Voz"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__volts
 #, python-format
 msgid "Volts"
-msgstr ""
+msgstr "Volts"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
+#, python-format
+msgid "Volume"
+msgstr "Volumen"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__volume
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__volume
-#, python-format
-msgid "Volume"
+msgid "Volumen"
 msgstr "Volumen"
 
 #. module: lmm
@@ -2579,8 +3091,6 @@ msgstr "Garantía"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_end_date
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_end_date
 #, python-format
 msgid "Warranty End Date"
 msgstr "Fin de garantía"
@@ -2593,16 +3103,12 @@ msgstr "Información de Garantías"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_start_date
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_start_date
 #, python-format
 msgid "Warranty Start Date"
 msgstr "Inicio de Garantía"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_accessory__warranty_term
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__warranty_term
 #, python-format
 msgid "Warranty Term"
 msgstr "Términos de Garantía"
@@ -2650,17 +3156,20 @@ msgid "Wholesaler"
 msgstr "Mayorista"
 
 #. module: lmm
+#: code:addons/lmm/models/device.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__wid
+#, python-format
+msgid "Wialon ID"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__year
 #, python-format
 msgid "Year"
 msgstr "Año"
 
 #. module: lmm
-#: code:addons/lmm/models/fuel_sensor.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__amorphous
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__amorphous
 #, python-format
 msgid "amorphous"
 msgstr "Amorfo"
@@ -2701,10 +3210,7 @@ msgid "characterizations Tree"
 msgstr "Listado de Caracterizaciones"
 
 #. module: lmm
-#: code:addons/lmm/models/fuel_sensor.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__cylindrical
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__cylindrical
 #, python-format
 msgid "cylindrical"
 msgstr "Cilíndrico"
@@ -2749,30 +3255,16 @@ msgstr "Liasta de Vehículos"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position1
-#, python-format
-msgid "position 1"
-msgstr "Posición 1"
-
-#. module: lmm
-#: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position2
-#, python-format
-msgid "position 2"
-msgstr "Posición 2"
-
-#. module: lmm
-#: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__position__position3
-#, python-format
-msgid "position 3"
-msgstr "Posición 3"
-
-#. module: lmm
-#: code:addons/lmm/models/fuel_sensor.py:0
-#: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_sensor__type__rectangular
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_fuel_tank__type__rectangular
 #, python-format
 msgid "rectangular"
 msgstr "Rectangular"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__last_position
+msgid "Última posición"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__last_report
+msgid "Último Reporte"
+msgstr ""
