@@ -146,10 +146,24 @@ class Vehicle(models.Model):
             )
 
     def action_view_devices(self):
-        action = self.env['ir.actions.act_window']._for_xml_id('lmm_device_list_action')
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_device_list_action')
+        action['context'] = {'active_test': False}
         action['context'] = {'dealer_id': self.client_id, 'vehicle_id': self.id}
         action['domain'] = [('vehicle_id.id', '=', self.id)]
+        return action
 
+    def action_view_tanks(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_fuel_tank_list_action')
+        action['context'] = {'active_test': False}
+        action['context'] = {'dealer_id': self.client_id, 'vehicle_id': self.id}
+        action['domain'] = [('vehicle_id.id', '=', self.id)]
+        return action
+
+    def action_view_accessories(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_accessory_list_action')
+        action['context'] = {'active_test': False}
+        action['context'] = {'dealer_id': self.client_id, 'vehicle_id': self.id}
+        action['domain'] = [('vehicle_id.id', '=', self.id)]
         return action
 
     @api.model

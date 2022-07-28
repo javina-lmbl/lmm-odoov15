@@ -16,12 +16,11 @@
         <sheet>
           <div name="button_box" class="oe_button_box">
             <button
-                    class="oe_stat_button"
+                    class="oe_stat_button o_res_partner_tip_opp"
                     icon="fa-map-marker"
-                    type="action"
+                    type="object"
                     attrs="{'invisible': [('devices_count', '&lt;', 1)]}"
-                    name="%(lmm_device_list_action)d"
-                    domain="[('vehicle_id','=', active_id)]"
+                    name="action_view_devices"
                     context="{'default_dealer_id': client_id, 'default_vehicle_id': active_id}">
 
               <field string="Devices" name="devices_count" widget="statinfo" />
@@ -29,9 +28,9 @@
             <button
                     class="oe_stat_button"
                     icon="fa-tachometer"
-                    type="action"
+                    type="object"
                     attrs="{'invisible': [('fuel_tank_count', '&lt;', 1)]}"
-                    name="%(lmm_fuel_tank_list_action)d"
+                    name="action_view_tanks"
                     context="{'default_vehicle_id': active_id}">
 
               <field string="Fuel Tanks" name="fuel_tank_count" widget="statinfo" />
@@ -40,9 +39,9 @@
             <button
                     class="oe_stat_button"
                     icon="fa-cubes"
-                    type="action"
+                    type="object"
                     attrs="{'invisible': [('accessories_count', '&lt;', 1)]}"
-                    name="%(lmm_accessory_list_action)d"
+                    name="action_view_accessories"
                     context="{'default_vehicle_id': active_id}">
               <field string="Accessories" name="accessories_count" widget="statinfo" />
             </button>

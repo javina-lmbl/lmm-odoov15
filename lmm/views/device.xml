@@ -11,9 +11,9 @@
                             <button
                                     class="oe_stat_button"
                                     icon="fa-cubes"
-                                    type="action"
+                                    type="object"
                                     attrs="{'invisible': [('accessories_count', '&lt;', 1)]}"
-                                    name="%(lmm_accessory_list_action)d"
+                                    name="action_view_accessories"
                                     context="{'default_device_id': active_id, 'default_client_id': dealer_id}">
 
                                 <field string="Accessories" name="accessories_count" widget="statinfo" />

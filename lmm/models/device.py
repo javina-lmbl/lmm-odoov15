@@ -295,6 +295,13 @@ class Device(models.Model):
                 [('device_id', '=', rec.id)]
             )
 
+    def action_view_accessories(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_accessory_list_action')
+        action['context'] = {'active_test': False}
+        action['context'] = {'dealer_id': self.client_id, 'device_id': self.id}
+        action['domain'] = [('device_id.id', '=', self.id)]
+        return action
+
     @api.onchange('product_id')
     def onchange_get_serialnumbers_for_selected_product(self):
         #_logger.warning('Product ID: %s', self.product_id.name)

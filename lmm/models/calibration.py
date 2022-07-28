@@ -65,6 +65,13 @@ class FuelCalibration(models.Model):
                 [('calibration_id', '=', rec.id)]
             )
 
+    def action_view_calibration_results(self):
+        action = self.env['ir.actions.act_window']._for_xml_id('lmm.lmm_calibration_results_list_action')
+        action['context'] = {'active_test': False}
+        action['context'] = {'calibration_id': self.id}
+        action['domain'] = [('calibration_id.id', '=', self.id)]
+        return action
+
     @api.model
     def create(self, vals):
         seq = self.env['ir.sequence'].next_by_code('lmm.calibration') or _('New')

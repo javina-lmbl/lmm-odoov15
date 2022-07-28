@@ -20,9 +20,9 @@
             <button
                     class="oe_stat_button"
                     icon="fa-list-alt"
-                    type="action"
+                    type="object"
                     attrs="{'invisible': [('calibration_results_count', '&lt;', 1)]}"
-                    name="%(lmm_calibration_results_list_action)d"
+                    name="action_view_calibration_results"
                     context="{'default_calibration_id': active_id}">
               <field string="Results" name="calibration_results_count" widget="statinfo" />
             </button>
