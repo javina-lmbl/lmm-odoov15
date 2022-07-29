@@ -45,6 +45,16 @@ class Characterization(models.Model):
         string=_('Volt max')
     )
 
+    process_type = fields.Selection(
+        selection=[
+            ("automatic", _("Automatic")),
+            ("manual", _("Manual")),
+        ],
+        default="manual",
+        string=_("Process Type"),
+        tracking=True
+    )
+
     def copy(self, default=None):
         default = dict(default or {})
 

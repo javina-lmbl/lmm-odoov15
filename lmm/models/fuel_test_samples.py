@@ -34,6 +34,11 @@ class FuelTestSamples(models.Model):
         string=_('Diff')
     )
 
+    fuel_load = fields.Float(
+        digits=(16, 9),
+        string=_('Fuel Load')
+    )
+
     fuel_test_id = fields.Many2one(
         comodel_name="lmm.fuel_test",
         string=_("Fuel Test"),

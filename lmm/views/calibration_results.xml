@@ -22,6 +22,7 @@
               <field name="name"/>
               <field name="calibration_id"/>
               <field name="size"/>
+              <field name="create_date"/>
             </group>
             <group string="Details">
               <separator/>

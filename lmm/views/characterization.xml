@@ -18,6 +18,7 @@
             <group string="More Info">
               <field name="volt_min"/>
               <field name="volt_max"/>
+              <field name="process_type"/>
             </group>
           </group>
           <notebook>

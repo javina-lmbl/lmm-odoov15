@@ -16,7 +16,7 @@
                                     name="action_view_accessories"
                                     context="{'default_device_id': active_id, 'default_client_id': dealer_id}">
 
-                                <field string="Accessories" name="accessories_count" widget="statinfo" />
+                                <field string="Accessories" name="accessories_count" widget="statinfo"/>
                             </button>
 
                         </div>

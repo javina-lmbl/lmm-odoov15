@@ -42,10 +42,25 @@ class FuelTank(models.Model):
         string=_('Gasket')
     )
 
-    volume = fields.Float(
+    volume_total_calc = fields.Float(
         digits=(16, 3),
-        string=_('Volume')
-    )    
+        string=_('Volume 100% Calc.')
+    )
+
+    volume_95_calc = fields.Float(
+        digits=(16, 3),
+        string=_('Volume 95% Calc.')
+    )
+
+    volume_total_label = fields.Float(
+        digits=(16, 3),
+        string=_('Volume 100% Label')
+    )
+
+    volume_95_label = fields.Float(
+        digits=(16, 3),
+        string=_('Volume 95% Label')
+    )
 
     position = fields.Integer(
         string=_('Position'),

@@ -40,6 +40,8 @@
               <field name="correction"/>
               <field name="volt_min"/>
               <field name="volt_max"/>
+              <field name="gasket"/>
+              <field name="distance_from_center"/>
             </group>
           </group>
           <notebook>

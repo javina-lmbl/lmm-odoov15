@@ -59,6 +59,17 @@ class FuelCalibration(models.Model):
         string=_('Volt max')
     )
 
+    gasket = fields.Float(
+        digits=(16, 3),
+        string=_('Gasket')
+    )
+
+    distance_from_center = fields.Float(
+        digits=(16, 3),
+        string=_('Distance fron center'),
+        help=_('How far is it from the center of the fuel tank where the sensor is installed')
+    )
+
     def _compute_calibration_results_count(self):
         for rec in self:
             rec.calibration_results_count = self.env['lmm.calibration_results'].search_count(

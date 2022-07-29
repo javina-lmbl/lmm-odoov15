@@ -303,13 +303,10 @@ class Device(models.Model):
         return action
 
     @api.onchange('product_id')
-    def onchange_get_serialnumbers_for_selected_product(self):
-        #_logger.warning('Product ID: %s', self.product_id.name)
-        #_logger.warning('Product Name: %s', self.product_id)
+    def onchange_get_serial_numbers_for_selected_product(self):
         domain = {}
         if self.product_id:
             domain = {'domain': {'serial_number_id': [('product_id', '=', self.product_id.id)]}}
-            #_logger.warning('Domain Output: %s', domain)
         return domain
 
     @api.model

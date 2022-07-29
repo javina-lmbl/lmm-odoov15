@@ -29,8 +29,18 @@
               <field name="length"/>
               <field name="diameter"/>
               <field name="gasket"/>
-              <field name="volume"/>
               <field name="position"/>
+            </group>
+          </group>
+          <group>
+            <group string="Volumes Calculated">
+              <field name="volume_total_calc"/>
+              <field name="volume_95_calc"/>
+            </group>
+
+            <group string="Volumes in Label">
+              <field name="volume_total_label"/>
+              <field name="volume_95_label"/>
             </group>
           </group>
         </sheet>
@@ -69,7 +79,8 @@
         <field name="vehicle_id"/>
         <field name="diameter"/>
         <field name="length"/>
-        <field name="volume"/>
+        <field name="volume_total_calc"/>
+        <field name="volume_95_calc"/>
         <field name="gasket"/>
         <field name="position"/>
       </tree>

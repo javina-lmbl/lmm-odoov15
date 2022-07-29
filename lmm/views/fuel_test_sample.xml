@@ -2,7 +2,7 @@
 <odoo>
   <record id="seq_fuel_test_sample" model="ir.sequence">
     <field name="name">Fuel Test Sample Sequence</field>
-    <field name="code">lmm.fuel_test_sample_sample</field>
+    <field name="code">lmm.fuel_test_samples</field>
     <field name="prefix">FTX</field>
     <field name="padding">15</field>
     <field name="company_id" eval="False"/>
