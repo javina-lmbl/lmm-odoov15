@@ -46,7 +46,7 @@
           </group>
           <notebook>
             <page string="Results Details">
-              <field name="calibration_results_ids" widget="many2many" options="{'no_create': True}">
+              <field name="calibration_results_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly':True}">
                 <tree>
                   <field name="name"/>
                   <field name="size"/>
