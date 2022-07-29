@@ -25,12 +25,12 @@ class FuelTestSamples(models.Model):
     )
 
     volume = fields.Float(
-        digits=(16, 2),
+        digits=(16, 9),
         string=_('Volume')
     )
 
     diff = fields.Float(
-        digits=(16, 2),
+        digits=(16, 9),
         string=_('Diff')
     )
 

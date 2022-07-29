@@ -25,17 +25,17 @@ class CalibrationResults(models.Model):
     )
 
     volts = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Volts')
     )
 
     adc = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Adc')
     )
 
     volume = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Volume')
     )
 

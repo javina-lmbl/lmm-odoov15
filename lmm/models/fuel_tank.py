@@ -28,22 +28,22 @@ class FuelTank(models.Model):
     ])
 
     length = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Length')
     )
 
     diameter = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Diameter')
     )
 
     gasket = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Gasket')
     )
 
     volume = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Volume')
     )    
 

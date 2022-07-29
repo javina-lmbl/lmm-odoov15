@@ -36,12 +36,12 @@ class Characterization(models.Model):
     )
 
     volt_min = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Volt min')
     )
 
     volt_max = fields.Float(
-        digits=(16, 2),
+        digits=(16, 3),
         string=_('Volt max')
     )
 
