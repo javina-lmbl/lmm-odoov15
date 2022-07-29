@@ -70,13 +70,13 @@
 
           <notebook>
             <page string="Devices">
-                <field name="device_ids" widget="many2many" options="{'no_create': True}"/>
+                <field name="device_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly':True}"/>
             </page>
             <page string="Fuel Tanks">
-                <field name="fuel_tank_ids" widget="many2many" options="{'no_create': True}"/>
+                <field name="fuel_tank_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly':True}"/>
             </page>
             <page string="Accessories">
-                <field name="accessory_ids" widget="many2many" options="{'no_create': True}"/>
+                <field name="accessory_ids" widget="many2many" options="{'no_create': True}" attrs="{'readonly':True}"/>
             </page>
           </notebook>
         </sheet>
