@@ -20,7 +20,8 @@
               <field name="name"/>
               <field name="fuel_characterization_id"/>
               <field name="size"/>
-              <field name="volts"/>            
+              <field name="volts"/>
+              <field name="create_date"/>
           </group>        
         </sheet>
         <div class="oe_chatter">

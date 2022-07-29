@@ -51,10 +51,10 @@
             <group string="Vehicle Info">
               <separator/>
               <field name="name"/>
+              <field name="client_id"/>
               <field name="nick"/>
               <field name="vin_sn"/>
               <field name="registration_plate"/>
-              <field name="client_id"/>
             </group>
 
             <group string="Details">

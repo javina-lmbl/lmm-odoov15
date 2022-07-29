@@ -33,10 +33,11 @@
               <separator/>
               <field name="name"/>
               <field name="fuel_sensor_id"/>
+              <field name="method"/>
+              <field name="create_date"/>
             </group>
             <group string="Details">
               <separator/>
-              <field name="method"/>
               <field name="correction"/>
               <field name="volt_min"/>
               <field name="volt_max"/>

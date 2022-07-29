@@ -30,6 +30,7 @@
               <field name="sample_number"/>
               <field name="volume"/>
               <field name="diff"/>
+              <field name="fuel_load"/>
             </group>
           </group>
         </sheet>
@@ -62,8 +63,6 @@
         <field name="sample_number"/>
         <field name="fuel_test_id"/>
         <field name="fuel_tank_id"/>
-        <field name="volume"/>
-        <field name="diff"/>
       </tree>
     </field>
   </record>
