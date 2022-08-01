@@ -52,6 +52,7 @@
               <separator/>
               <field name="name"/>
               <field name="client_id"/>
+              <field name="installed_client_id" attrs="{'readonly':[('client_id','=',False)]}"/>
               <field name="nick"/>
               <field name="vin_sn"/>
               <field name="registration_plate"/>
@@ -98,6 +99,7 @@
         <field name="name"/>
         <field name="nick"/>
         <field name="client_id"/>
+        <field name="installed_client_id"/>
         <field name="operative_status"/>
         <field name="vin_sn"/>
         <field name="registration_plate"/>
@@ -120,6 +122,7 @@
         <field name="name"/>
         <field name="nick"/>
         <field name="client_id"/>
+        <field name="installed_client_id"/>
         <field name="operative_status"/>
         <field name="registration_plate"/>
         <field name="vin_sn"/>

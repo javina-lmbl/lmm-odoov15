@@ -36,6 +36,7 @@
                             <group string="Details">
                                 <separator/>
                                 <field name="dealer_id"/>
+                                <field name="installed_client_id" attrs="{'readonly':[('dealer_id','=',False)]}"/>
                                 <field name="operative_status"/>
                                 <field name="installation_date"/>
                                 <field name="product_id"/>
@@ -138,6 +139,7 @@
                     <field name="warranty_end_date"/>
                     <field name="dealer_id" />
                     <field name="vehicle_id"/>
+                    <field name="installed_client_id"/>
                 </tree>
             </field>
         </record>
@@ -155,6 +157,7 @@
                     <field name="installation_date"/>
                     <field name="product_id"/>
                     <field name="dealer_id" />
+                    <field name="installed_client_id"/>
                     <field name="vehicle_id"/>
                     <field name="message_ids" string="Chatter Messages" filter_domain="[('message_ids.body', 'ilike', self)]"/>
                     <group expand="1" string="Group By">

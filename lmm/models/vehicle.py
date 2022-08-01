@@ -2,7 +2,6 @@
 from odoo import api, models, fields, _
 from odoo.exceptions import UserError
 
-
 import logging
 _logger = logging.getLogger(__name__)
 
@@ -127,6 +126,12 @@ class Vehicle(models.Model):
         compute='_compute_accessories_count',
     )
 
+    installed_client_id = fields.Many2one(
+        comodel_name="lmm.account",
+        string=_("Client Assignation"),
+        tracking=True
+    )
+
     def _compute_fuel_tanks_count(self):
         for rec in self:
             rec.fuel_tank_count = self.env['lmm.fuel_tank'].search_count(
@@ -184,6 +189,15 @@ class Vehicle(models.Model):
 
         default['name'] = new_name
         return super(Vehicle, self).copy(default)
+
+    @api.onchange('client_id')
+    def _onchange_client_id(self):
+        self.installed_client_id = False
+        res = {}
+        if self.client_id:
+            res['domain'] = {'installed_client_id': [('client_id', '=', self.client_id.id)]}
+                    
+        return res
 
     _sql_constraints = [
         ('name_unique',

@@ -270,6 +270,12 @@ class Device(models.Model):
         string=_('Wialon ID')
     )
 
+    installed_client_id = fields.Many2one(
+        comodel_name="lmm.account",
+        string=_("Client Assignation"),
+        tracking=True
+    )
+
     vehicle_id = fields.Many2one(
         comodel_name="lmm.vehicle",
         ondelete="set null",
@@ -319,6 +325,14 @@ class Device(models.Model):
             start = fields.Date.from_string(self.warranty_start_date)
             self.warranty_end_date = start + timedelta(months * 365 / 12)
 
+    @api.onchange('dealer_id')
+    def _onchange_client_id(self):
+        self.installed_client_id = False
+        res = {}
+        if self.dealer_id:
+            res['domain'] = {'installed_client_id': [('client_id', '=', self.dealer_id.id)]}
+
+        return res
     def copy(self, default=None):
         default = dict(default or {})
 

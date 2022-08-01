@@ -14,7 +14,8 @@ class Account(models.Model):
     type = fields.Selection([
         ('dealer', _('dealer')),
         ('wholesaler', _('Wholesaler')),
-        ('retail', _('Retail'))
+        ('retail', _('Retail')),
+        ('client', _('Client'))
     ],
         default="dealer",
         string=_("Type"),

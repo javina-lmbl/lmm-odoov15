@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 20:58+0000\n"
-"PO-Revision-Date: 2022-07-28 20:58+0000\n"
+"POT-Creation-Date: 2022-08-01 22:52+0000\n"
+"PO-Revision-Date: 2022-08-01 22:52+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -202,7 +202,28 @@ msgid "Account"
 msgstr "Cuenta"
 
 #. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_form_view
+msgid "Account Form"
+msgstr "Formulario de Cuentas"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_form_view
+msgid "Account Info"
+msgstr "Información de la cuenta"
+
+#. module: lmm
+#: model:ir.ui.menu,name:lmm.lmm_account_menu
+msgid "Accounts"
+msgstr "Cuentas"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_tree_view
+msgid "Accounts Tree"
+msgstr "Listado de cuentas"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_needaction
@@ -237,6 +258,7 @@ msgstr "Activo"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_ids
@@ -255,6 +277,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_exception_decoration
@@ -273,6 +296,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_state
@@ -291,6 +315,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_type_icon
@@ -367,10 +392,11 @@ msgstr "Asignado a"
 #: code:addons/lmm/models/cell_chip.py:0
 #, python-format
 msgid "Assigned to"
-msgstr "Asignado a"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_attachment_count
@@ -386,6 +412,13 @@ msgstr "Asignado a"
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_attachment_count
 msgid "Attachment Count"
 msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_characterization__process_type__automatic
+#, python-format
+msgid "Automatic"
+msgstr "Automático"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__year
@@ -500,7 +533,12 @@ msgstr ""
 #: code:addons/lmm/models/cell_chip.py:0
 #, python-format
 msgid "Cancelled"
-msgstr "Cancelado"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__characterization_count
+msgid "Caracterizaciones"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__fuel_characterization_detail_ids
@@ -549,6 +587,11 @@ msgid "Cellchip Owner"
 msgstr "Dueño del Chip"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__sheet
+msgid "Chapa"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
@@ -586,7 +629,6 @@ msgstr "Caracterizaciones"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_sensor.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__characterization_count
 #, python-format
 msgid "Characterizations Count"
 msgstr "Caracterizaciones"
@@ -599,6 +641,7 @@ msgstr "Numero de chasis"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Chatter Messages"
 msgstr ""
@@ -621,13 +664,23 @@ msgid "Cilíndrico"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/account.py:0
 #, python-format
 msgid "Client"
 msgstr "Cliente"
 
 #. module: lmm
+#: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__installed_client_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__installed_client_id
+#, python-format
+msgid "Client Assignation"
+msgstr "Cliente Asignado"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__client_id
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_account__type__client
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Cliente"
 msgstr ""
@@ -636,7 +689,7 @@ msgstr ""
 #: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "Collective"
-msgstr "Collectivo"
+msgstr "Collectivos"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__collective
@@ -691,6 +744,7 @@ msgstr "Cortesía"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__create_uid
@@ -709,6 +763,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__create_date
@@ -723,6 +778,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__create_date
 msgid "Created on"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__name
+msgid "Cuenta"
 msgstr ""
 
 #. module: lmm
@@ -769,6 +829,7 @@ msgid "Demo"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model,name:lmm.model_lmm_account
 #: model:ir.model,name:lmm.model_lmm_fuel_test_samples
 msgid "Description"
 msgstr "Descripción"
@@ -856,6 +917,7 @@ msgstr "Sensor de desenganche"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__display_name
@@ -889,7 +951,15 @@ msgid "Dispositivos GPS"
 msgstr ""
 
 #. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__distance_from_front
+#, python-format
+msgid "Distance from front"
+msgstr "Distancia desde el frente"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__dealer_id
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_account__type__dealer
 msgid "Distribuidor"
 msgstr ""
 
@@ -940,6 +1010,7 @@ msgid "Electronics"
 msgstr "Tarjeta Electrónica"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__gasket
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__gasket
 msgid "Empaque"
 msgstr ""
@@ -1064,6 +1135,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_follower_ids
@@ -1082,6 +1154,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_partner_ids
@@ -1100,6 +1173,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_account__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_type_icon
@@ -1127,6 +1201,13 @@ msgstr "Por Instalar"
 #, python-format
 msgid "Fuel"
 msgstr "Combustible"
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_test_samples.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_load
+#, python-format
+msgid "Fuel Load"
+msgstr "Carga de Combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
@@ -1288,6 +1369,7 @@ msgid "GPS Devices"
 msgstr "Dispositivos GPS"
 
 #. module: lmm
+#: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_tank.py:0
 #, python-format
 msgid "Gasket"
@@ -1301,6 +1383,7 @@ msgstr "Plataforma"
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.device_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_detail_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
@@ -1309,6 +1392,7 @@ msgstr "Agrupado por"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__has_message
@@ -1337,6 +1421,14 @@ msgid "Hibernate"
 msgstr "Hibernación"
 
 #. module: lmm
+#: code:addons/lmm/models/calibration.py:0
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__distance_from_front
+#, python-format
+msgid ""
+"How far is it from the front of the fuel tank where the sensor is installed"
+msgstr "La distancia desde la punta del tanque (hacia el motor) hasta el punto donde el sensor ha sido instalado."
+
+#. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__iccid
 #, python-format
@@ -1345,6 +1437,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__id
@@ -1377,6 +1470,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_exception_icon
@@ -1395,6 +1489,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_account__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_exception_icon
@@ -1414,6 +1509,8 @@ msgstr ""
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_needaction
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_needaction
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_needaction
@@ -1446,6 +1543,8 @@ msgstr ""
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_error
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_error
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_has_error
@@ -1560,8 +1659,8 @@ msgid "Installed"
 msgstr "Instalado"
 
 #. module: lmm
-#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/account.py:0
-#: code:addons/lmm/models/cell_chip.py:0 code:addons/lmm/models/device.py:0
+#: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/cell_chip.py:0
+#: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "Installed On"
 msgstr "Instalado en"
@@ -1591,6 +1690,7 @@ msgstr "Inventario"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_is_follower
@@ -1651,6 +1751,7 @@ msgstr "LMM Wizards"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_account____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip____last_update
@@ -1682,6 +1783,7 @@ msgstr "Último Reporte"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__write_uid
@@ -1700,6 +1802,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__write_date
@@ -1785,6 +1888,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_main_attachment_id
@@ -1799,6 +1903,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle_type_list__message_main_attachment_id
 msgid "Main Attachment"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_characterization__process_type__manual
+#, python-format
+msgid "Manual"
 msgstr ""
 
 #. module: lmm
@@ -1818,6 +1929,11 @@ msgid "Mayor Accounte"
 msgstr "Cuenta Padre"
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_account__type__wholesaler
+msgid "Mayorista"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_cell_chip__provider__maztiempo
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_search_view
 msgid "MazTiempo"
@@ -1825,6 +1941,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_error
@@ -1843,6 +1960,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_ids
@@ -1877,10 +1995,15 @@ msgid "Micrófono"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_account__type__retail
+msgid "Minorista"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/vehicle.py:0
 #, python-format
 msgid "Model"
-msgstr "Modelo"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__vehicle_model
@@ -1890,7 +2013,6 @@ msgstr ""
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_accessory_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_form_view
-#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
 msgid "More Info"
 msgstr "Más Información"
@@ -1918,6 +2040,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__my_activity_date_deadline
@@ -1950,10 +2073,11 @@ msgstr ""
 #: code:addons/lmm/models/vehicle.py:0
 #, python-format
 msgid "New"
-msgstr "Nuevo"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_calendar_event_id
@@ -1972,6 +2096,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_date_deadline
@@ -1990,6 +2115,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_summary
@@ -2008,6 +2134,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_type_id
@@ -2039,6 +2166,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_needaction_counter
@@ -2057,6 +2185,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_error_counter
@@ -2075,6 +2204,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_needaction_counter
@@ -2093,6 +2223,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_has_error_counter
@@ -2111,6 +2242,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_account__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__message_unread_counter
@@ -2201,6 +2333,13 @@ msgid "Panel Solar"
 msgstr ""
 
 #. module: lmm
+#: code:addons/lmm/models/account.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__client_id
+#, python-format
+msgid "Parent Account"
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #, python-format
 msgid "Pattern jug"
@@ -2262,8 +2401,12 @@ msgid "Por Instalar"
 msgstr ""
 
 #. module: lmm
-#: code:addons/lmm/models/fuel_tank.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__position
+msgid "Posición"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
 #, python-format
 msgid "Position"
 msgstr "Posición"
@@ -2274,10 +2417,22 @@ msgid "Prestado"
 msgstr ""
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_characterization.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__process_type
+#, python-format
+msgid "Process Type"
+msgstr "Tipo de Proceso"
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.cell_chip_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.device_search_view
 msgid "Product"
 msgstr "Producto"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_form_view
+msgid "Product Info"
+msgstr "Información de Producto"
 
 #. module: lmm
 #: code:addons/lmm/models/accessory.py:0 code:addons/lmm/models/device.py:0
@@ -2412,6 +2567,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__activity_user_id
@@ -2459,6 +2615,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_has_sms_error
@@ -2548,7 +2705,6 @@ msgstr "Servicios"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__sheet
 #, python-format
 msgid "Sheet"
 msgstr "Chapa"
@@ -2599,7 +2755,7 @@ msgstr "Panel Solar"
 #: code:addons/lmm/models/accessory.py:0
 #, python-format
 msgid "Sold"
-msgstr "Vendido"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
@@ -2617,7 +2773,7 @@ msgstr "Estado"
 #: code:addons/lmm/models/device.py:0
 #, python-format
 msgid "Status"
-msgstr "Estatus"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
@@ -2633,6 +2789,7 @@ msgstr "Días transcurridos"
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_account__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_state
@@ -2752,6 +2909,11 @@ msgid "The accessory id must be unique"
 msgstr "El accesorio debe ser único"
 
 #. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_account_name_unique
+msgid "The account name must be unique"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.constraint,message:lmm.constraint_lmm_calibration_name_unique
 msgid "The calibration id must be unique"
 msgstr "El ID de calibración debe ser único"
@@ -2830,6 +2992,11 @@ msgid "Time without reporting in platforms expressed in hours"
 msgstr "Tiempo sin reportar expresado en horas"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__type
+msgid "Tipo"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__product_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__product_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__product_id
@@ -2856,12 +3023,14 @@ msgstr "Rastreo"
 #. module: lmm
 #: code:addons/lmm/models/account.py:0
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__type
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #, python-format
 msgid "Type"
 msgstr "Tipo"
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_account__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__activity_exception_decoration
@@ -2909,6 +3078,7 @@ msgstr "El número de serie de motor debe ser único"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_unread
@@ -2927,6 +3097,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__message_unread_counter
@@ -3044,8 +3215,6 @@ msgstr "Voz"
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_max
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_max
 #, python-format
 msgid "Volt max"
 msgstr "Voltaje Máximo"
@@ -3053,11 +3222,21 @@ msgstr "Voltaje Máximo"
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_min
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_min
 #, python-format
 msgid "Volt min"
 msgstr "Voltaje Mínimo"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_max
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_max
+msgid "Voltaje Máximo"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__volt_min
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__volt_min
+msgid "Voltaje Mínimo"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
@@ -3066,22 +3245,58 @@ msgstr "Voltaje Mínimo"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__volts
 #, python-format
 msgid "Volts"
-msgstr "Volts"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration_results.py:0
-#: code:addons/lmm/models/fuel_tank.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #, python-format
 msgid "Volume"
 msgstr "Volumen"
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_calc
+#, python-format
+msgid "Volume 100% Calc."
+msgstr "Volmen 100% Calc."
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_label
+#, python-format
+msgid "Volume 100% Label"
+msgstr "Volumen 100% Etiqueta"
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_calc
+#, python-format
+msgid "Volume 95% Calc."
+msgstr "Volumen 95% Calc"
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_tank.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_label
+#, python-format
+msgid "Volume 95% Label"
+msgstr "Volumen 95% Etiqueta"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__volume
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__volume
 msgid "Volumen"
-msgstr "Volumen"
+msgstr ""
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
+msgid "Volumes Calculated"
+msgstr "Volúmenes calculados"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_form_view
+msgid "Volumes in Label"
+msgstr "Volúmenes en Etiquetas del tanque"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
@@ -3115,6 +3330,7 @@ msgstr "Términos de Garantía"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_account__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_cell_chip__website_message_ids
@@ -3133,6 +3349,7 @@ msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,help:lmm.field_lmm_accessory__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_account__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_calibration__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_calibration_results__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_cell_chip__website_message_ids
@@ -3172,7 +3389,7 @@ msgstr "Año"
 #: code:addons/lmm/models/fuel_tank.py:0
 #, python-format
 msgid "amorphous"
-msgstr "Amorfo"
+msgstr "Aformo"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
@@ -3239,6 +3456,11 @@ msgid "iButton"
 msgstr ""
 
 #. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_account_list_action
+msgid "lmm accounts"
+msgstr "Cuentas"
+
+#. module: lmm
 #: model:ir.actions.act_window,name:lmm.lmm_vehicle_type_list_action
 msgid "lmm.vehicle.type.list"
 msgstr "Lista de Tipos de Vehículos"
@@ -3257,7 +3479,7 @@ msgstr "Liasta de Vehículos"
 #: code:addons/lmm/models/fuel_tank.py:0
 #, python-format
 msgid "rectangular"
-msgstr "Rectangular"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__last_position
