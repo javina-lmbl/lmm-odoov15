@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <record model="ir.ui.view" id="lgps_account_form_view">
-    <field name="name">lgps_account.form</field>
-    <field name="model">lgps_account</field>
+  <record model="ir.ui.view" id="lmm_account_form_view">
+    <field name="name">lmm account form</field>
+    <field name="model">lmm.account</field>
     <field name="arch" type="xml">
       <form string="Account Form">
         <sheet>
@@ -23,9 +23,9 @@
     </field>
   </record>
 
-  <record model="ir.ui.view" id="lgps_account_search_view">
-    <field name="name">lgps_account.search</field>
-    <field name="model">lgps.lgps_account</field>
+  <record model="ir.ui.view" id="lmm_account_search_view">
+    <field name="name">lmm_account.search</field>
+    <field name="model">lmm.account</field>
     <field name="arch" type="xml">
       <search>
         <field name="name"/>
@@ -42,9 +42,9 @@
     </field>
   </record>
 
-  <record model="ir.ui.view" id="lgps_account_tree_view">
-    <field name="name">lgps_account.tree</field>
-    <field name="model">lgps.lgps_account</field>
+  <record model="ir.ui.view" id="lmm_account_tree_view">
+    <field name="name">lmm_account.tree</field>
+    <field name="model">lmm.account</field>
     <field name="arch" type="xml">
       <tree string="Accounts Tree">
         <field name="name"/>
@@ -54,12 +54,12 @@
     </field>
   </record>
 
-  <record model="ir.actions.act_window" id="lgps_account_list_action">
-    <field name="name">lgps_accounts</field>
-    <field name="res_model">lgps.lgps_account</field>
+  <record model="ir.actions.act_window" id="lmm_account_list_action">
+    <field name="name">lmm accounts</field>
+    <field name="res_model">lmm.account</field>
     <field name="view_mode">tree,form</field>
   </record>
 
   <!-- Menu items -->
-  <menuitem id="gps_devices_menu" name="Accounts" parent="lgps_menu" action="lgps_account_list_action"/>
+  <menuitem id="lmm_account_menu" name="Accounts" parent="lmm_menu" action="lmm_account_list_action"/>
 </odoo>

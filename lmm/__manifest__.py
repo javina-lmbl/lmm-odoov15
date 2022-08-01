@@ -36,5 +36,6 @@
         'views/calibration.xml',
         'views/fuel_test_sample.xml',
         'views/fuel_test.xml',
+        'views/account.xml',
     ],
 }
