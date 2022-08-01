@@ -42,7 +42,7 @@
               <field name="volt_min"/>
               <field name="volt_max"/>
               <field name="gasket"/>
-              <field name="distance_from_center"/>
+              <field name="distance_from_front"/>
             </group>
           </group>
           <notebook>
