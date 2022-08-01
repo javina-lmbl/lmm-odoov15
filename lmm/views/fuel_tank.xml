@@ -21,7 +21,7 @@
               <separator/>
               <field name="name"/>
               <field name="vehicle_id"/>
-              <field name="fuel_sensor_id"/>
+              <field name="fuel_sensor_id" context="{'hide_code': False}"/>
             </group>
             <group string="More Info">
               <separator/>

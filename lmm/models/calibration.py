@@ -64,10 +64,10 @@ class FuelCalibration(models.Model):
         string=_('Gasket')
     )
 
-    distance_from_center = fields.Float(
+    distance_from_front = fields.Float(
         digits=(16, 3),
-        string=_('Distance fron center'),
-        help=_('How far is it from the center of the fuel tank where the sensor is installed')
+        string=_('Distance fron front'),
+        help=_('How far is it from the front of the fuel tank where the sensor is installed')
     )
 
     def _compute_calibration_results_count(self):

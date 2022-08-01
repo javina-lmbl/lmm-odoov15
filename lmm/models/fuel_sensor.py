@@ -94,6 +94,16 @@ class FuelSensor(models.Model):
         vals['name'] = seq
         return super(FuelSensor, self).create(vals)
 
+    def name_get(self):
+        result = []
+        for rec in self:
+            if not self.env.context.get('hide_code'):
+                name = '[ ' + rec.serial_number_id.name + ' ]  ' + rec.name
+            else:
+                name = rec.name
+            result.append((rec.id, name))
+        return result
+
     def copy(self, default=None):
         default = dict(default or {})
 
