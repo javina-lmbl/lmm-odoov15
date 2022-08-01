@@ -66,7 +66,7 @@ class FuelCalibration(models.Model):
 
     distance_from_front = fields.Float(
         digits=(16, 3),
-        string=_('Distance fron front'),
+        string=_('Distance from front'),
         help=_('How far is it from the front of the fuel tank where the sensor is installed')
     )
 
