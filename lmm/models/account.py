@@ -24,7 +24,7 @@ class Account(models.Model):
     client_id = fields.Many2one(
         comodel_name="res.partner",
         required=True,
-        string=_("Installed On"),
+        string=_("Parent Account"),
         domain=[
             ('active', '=', True),
             ('is_company', '=', True)

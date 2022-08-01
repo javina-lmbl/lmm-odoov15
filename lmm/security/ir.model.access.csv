@@ -55,3 +55,7 @@ fuel_test_samples_manager,Fuel Test Samples Manager,model_lmm_fuel_test_samples,
 fuel_test_samples_read_all,Fuel Test Samples User,model_lmm_fuel_test_samples,lmm_group_user,1,1,1,0
 fuel_test_samples_maintainer,Fuel Test Samples Maintainer,model_lmm_fuel_test_samples,lmm_group_maintainer,1,0,0,0
 fuel_test_samples_guest,Fuel Test Samples Reader,model_lmm_fuel_test_samples,lmm_group_reader,1,0,0,0
+account_manager,Account Manager,model_lmm_account,lmm_group_manager,1,1,1,1
+account_read_all,Account User,model_lmm_account,lmm_group_user,1,1,1,0
+account_maintainer,Account Maintainer,model_lmm_account,lmm_group_maintainer,1,0,0,0
+account_guest,Account Reader,model_lmm_account,lmm_group_reader,1,0,0,0
