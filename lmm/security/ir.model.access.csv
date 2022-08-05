@@ -59,3 +59,11 @@ account_manager,Account Manager,model_lmm_account,lmm_group_manager,1,1,1,1
 account_read_all,Account User,model_lmm_account,lmm_group_user,1,1,1,0
 account_maintainer,Account Maintainer,model_lmm_account,lmm_group_maintainer,1,0,0,0
 account_guest,Account Reader,model_lmm_account,lmm_group_reader,1,0,0,0
+fuel_load_division_manager,Fuel Load Division Manager,model_lmm_fuel_load_division,lmm_group_manager,1,1,1,1
+fuel_load_division_read_all,Fuel Load Division User,model_lmm_fuel_load_division,lmm_group_user,1,1,1,0
+fuel_load_division_maintainer,Fuel Load Division Maintainer,model_lmm_fuel_load_division,lmm_group_maintainer,1,0,0,0
+fuel_load_division_guest,Fuel Load Division Reader,model_lmm_fuel_load_division,lmm_group_reader,1,0,0,0
+fuel_step_load_manager,Fuel Step Load Manager,model_lmm_fuel_step_load,lmm_group_manager,1,1,1,1
+fuel_step_load_read_all,Fuel Step Load User,model_lmm_fuel_step_load,lmm_group_user,1,1,1,0
+fuel_step_load_maintainer,Fuel Step Load Maintainer,model_lmm_fuel_step_load,lmm_group_maintainer,1,0,0,0
+fuel_step_load_guest,Fuel Step Load Reader,model_lmm_fuel_step_load,lmm_group_reader,1,0,0,0

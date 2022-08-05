@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_fuel_load_division" model="ir.sequence">
+    <field name="name">Fuel Load Division Sequence</field>
+    <field name="code">lmm.fuel_load_division</field>
+    <field name="prefix">FLD</field>
+    <field name="padding">10</field>
+    <field name="company_id" eval="False"/>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_load_division_form_view">
+    <field name="name">Fuel Load Division Form</field>
+    <field name="model">lmm.fuel_load_division</field>
+    <field name="arch" type="xml">
+      <form string="fuel_load_division Form">
+        <sheet>
+            <div name="button_box" class="oe_button_box">
+            <button
+                    class="oe_stat_button o_res_partner_tip_opp"
+                    icon="fa-list"
+                    type="object"
+                    attrs="{'invisible': [('fuel_step_load_count', '&lt;', 1)]}"
+                    name="action_view_fuel_steps"
+                    context="{'default_fuel_load_division_id': active_id}">
+
+              <field string="Steps" name="fuel_step_load_count" widget="statinfo" />
+            </button>
+            </div>
+          <group>
+              <field name="name"/>
+              <field name="min_volume"/>
+              <field name="max_volume"/>
+              <field name="create_date"/>
+          </group>        
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread"/>
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_load_division_search_view">
+    <field name="name">Fuel Load Division Search</field>
+    <field name="model">lmm.fuel_load_division</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="min_volume"/>
+        <field name="max_volume"/>
+      </search>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="lmm_fuel_load_division_tree_view">
+    <field name="name">Fuel Load Division Tree</field>
+    <field name="model">lmm.fuel_load_division</field>
+    <field name="arch" type="xml">
+      <tree string="fuel_load_divisions Tree">
+        <field name="name"/>
+        <field name="min_volume"/>
+        <field name="max_volume"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.actions.act_window" id="lmm_fuel_load_division_list_action">
+    <field name="name">Fuel Load Division</field>
+    <field name="res_model">lmm.fuel_load_division</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem
+          id="fuel_fuel_load_division_menu"
+          name="Fuel Load Division"
+          parent="fuel_help_data_section_menu"
+          action="lmm_fuel_load_division_list_action"
+          sequence="1"
+  />
+</odoo>

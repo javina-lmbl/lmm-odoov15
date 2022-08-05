@@ -196,7 +196,7 @@ class Vehicle(models.Model):
         res = {}
         if self.client_id:
             res['domain'] = {'installed_client_id': [('client_id', '=', self.client_id.id)]}
-                    
+
         return res
 
     _sql_constraints = [
