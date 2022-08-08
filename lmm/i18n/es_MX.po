@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 22:52+0000\n"
-"PO-Revision-Date: 2022-08-01 22:52+0000\n"
+"POT-Creation-Date: 2022-08-08 18:11+0000\n"
+"PO-Revision-Date: 2022-08-08 18:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -199,7 +199,7 @@ msgstr "Información de Accesorios"
 #: code:addons/lmm/models/account.py:0
 #, python-format
 msgid "Account"
-msgstr "Cuenta"
+msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_account_form_view
@@ -230,7 +230,9 @@ msgstr "Listado de cuentas"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_needaction
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_needaction
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_needaction
@@ -265,7 +267,9 @@ msgstr "Activo"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_ids
@@ -284,7 +288,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_exception_decoration
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_exception_decoration
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_exception_decoration
@@ -303,7 +309,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_state
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_state
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_state
@@ -322,7 +330,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_type_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_type_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_type_icon
@@ -392,7 +402,7 @@ msgstr "Asignado a"
 #: code:addons/lmm/models/cell_chip.py:0
 #, python-format
 msgid "Assigned to"
-msgstr ""
+msgstr "Asignado a"
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__message_attachment_count
@@ -403,7 +413,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_attachment_count
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_attachment_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_attachment_count
@@ -415,10 +427,14 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_characterization.py:0
-#: model:ir.model.fields.selection,name:lmm.selection__lmm_characterization__process_type__automatic
 #, python-format
 msgid "Automatic"
 msgstr "Automático"
+
+#. module: lmm
+#: model:ir.model.fields.selection,name:lmm.selection__lmm_characterization__process_type__automatic
+msgid "Automático"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__year
@@ -487,6 +503,11 @@ msgid "By Characterization"
 msgstr "Caracterización"
 
 #. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_search_view
+msgid "By Fuel Load Division"
+msgstr "Por División de Carga"
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration__name
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__calibration_id
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__calibrator
@@ -546,6 +567,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__fuel_characterization_id
 #: model:ir.model.fields.selection,name:lmm.selection__lmm_calibration__method__characterization
 msgid "Caracterización"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_load
+msgid "Carga de Combustible"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__fuel_load
+msgid "Cargar"
 msgstr ""
 
 #. module: lmm
@@ -671,8 +702,6 @@ msgstr "Cliente"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0 code:addons/lmm/models/vehicle.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_device__installed_client_id
-#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__installed_client_id
 #, python-format
 msgid "Client Assignation"
 msgstr "Cliente Asignado"
@@ -683,6 +712,12 @@ msgstr "Cliente Asignado"
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Cliente"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_device__installed_client_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__installed_client_id
+msgid "Cliente Asignado"
 msgstr ""
 
 #. module: lmm
@@ -751,7 +786,9 @@ msgstr "Cortesía"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__create_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__create_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__create_uid
@@ -770,7 +807,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__create_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__create_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__create_date
@@ -797,6 +836,7 @@ msgstr ""
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_form_view
 msgid "Data"
 msgstr "Información"
 
@@ -846,6 +886,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_form_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_form_view
 msgid "Details"
@@ -924,7 +965,9 @@ msgstr "Sensor de desenganche"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__display_name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__display_name
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__display_name
@@ -952,10 +995,14 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__distance_from_front
 #, python-format
 msgid "Distance from front"
 msgstr "Distancia desde el frente"
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_calibration__distance_from_front
+msgid "Distancia desde el frente"
+msgstr ""
 
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__dealer_id
@@ -1142,7 +1189,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_follower_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_follower_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_follower_ids
@@ -1161,7 +1210,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_partner_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_partner_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_partner_ids
@@ -1180,7 +1231,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_device__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_type_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_type_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_type_icon
@@ -1203,11 +1256,24 @@ msgid "Fuel"
 msgstr "Combustible"
 
 #. module: lmm
+#: model:ir.ui.menu,name:lmm.fuel_help_data_section_menu
+msgid "Fuel Help Data"
+msgstr "Informacón de Apoyo"
+
+#. module: lmm
 #: code:addons/lmm/models/fuel_test_samples.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__fuel_load
 #, python-format
 msgid "Fuel Load"
 msgstr "Carga de Combustible"
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_step_load.py:0
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_load_division_list_action
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__fuel_load_division_id
+#: model:ir.ui.menu,name:lmm.fuel_fuel_load_division_menu
+#, python-format
+msgid "Fuel Load Division"
+msgstr "División de Carga de Combustible"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_test.py:0
@@ -1247,6 +1313,13 @@ msgid "Fuel Sensors"
 msgstr "Sensores de combustible"
 
 #. module: lmm
+#: model:ir.actions.act_window,name:lmm.lmm_fuel_step_load_list_action
+#: model:ir.model,name:lmm.model_lmm_fuel_step_load
+#: model:ir.ui.menu,name:lmm.fuel_fuel_step_load_menu
+msgid "Fuel Step Load"
+msgstr "Paso de Carga de Combustible"
+
+#. module: lmm
 #: code:addons/lmm/models/fuel_sensor.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #: model:ir.actions.act_window,name:lmm.lmm_fuel_tank_list_action
@@ -1281,6 +1354,7 @@ msgid "Fuel Tanks"
 msgstr "Tanques de combustible"
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_load_division.py:0
 #: code:addons/lmm/models/vehicle.py:0
 #, python-format
 msgid "Fuel Tanks Count"
@@ -1309,6 +1383,11 @@ msgstr "Pruebas de combustible"
 #: model:ir.model,name:lmm.model_lmm_fuel_test
 msgid "Fuel Tests Module"
 msgstr "Pruebas de combustible"
+
+#. module: lmm
+#: model:ir.model,name:lmm.model_lmm_fuel_load_division
+msgid "Fuel load division"
+msgstr "División de Carga de Combustible"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_test_form_view
@@ -1386,6 +1465,7 @@ msgstr "Plataforma"
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_account_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_characterization_detail_search_view
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_search_view
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_vehicle_search_view
 msgid "Group By"
 msgstr "Agrupado por"
@@ -1399,7 +1479,9 @@ msgstr "Agrupado por"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__has_message
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__has_message
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__has_message
@@ -1422,11 +1504,12 @@ msgstr "Hibernación"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
-#: model:ir.model.fields,help:lmm.field_lmm_calibration__distance_from_front
 #, python-format
 msgid ""
 "How far is it from the front of the fuel tank where the sensor is installed"
-msgstr "La distancia desde la punta del tanque (hacia el motor) hasta el punto donde el sensor ha sido instalado."
+msgstr ""
+"La distancia desde la punta del tanque (hacia el motor) hasta el punto donde"
+" el sensor ha sido instalado."
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
@@ -1444,7 +1527,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__id
@@ -1477,7 +1562,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_exception_icon
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_exception_icon
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_exception_icon
@@ -1496,7 +1583,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_device__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_exception_icon
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_exception_icon
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_exception_icon
@@ -1523,8 +1612,12 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_needaction
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_needaction
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_unread
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_needaction
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_needaction
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_unread
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_needaction
@@ -1557,8 +1650,12 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_has_error
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_error
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_sms_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_has_error
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_error
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_sms_error
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_has_error
@@ -1577,7 +1674,7 @@ msgstr ""
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_form_view
 msgid "Images"
-msgstr "Imágines"
+msgstr "Imágenes"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
@@ -1670,6 +1767,8 @@ msgstr "Instalado en"
 #: code:addons/lmm/models/calibration_results.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
+#: code:addons/lmm/models/fuel_load_division.py:0
+#: code:addons/lmm/models/fuel_step_load.py:0
 #, python-format
 msgid "Internal Id"
 msgstr "Referencia Interna"
@@ -1697,7 +1796,9 @@ msgstr "Inventario"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_is_follower
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_is_follower
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_is_follower
@@ -1750,6 +1851,13 @@ msgid "LMM / Wizards "
 msgstr "LMM Wizards"
 
 #. module: lmm
+#: model:ir.model.fields,help:lmm.field_lmm_calibration__distance_from_front
+msgid ""
+"La distancia desde la punta del tanque (hacia el motor) hasta el punto donde"
+" el sensor ha sido instalado."
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_account____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration____last_update
@@ -1758,7 +1866,9 @@ msgstr "LMM Wizards"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_device____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor____last_update
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test____last_update
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples____last_update
@@ -1790,7 +1900,9 @@ msgstr "Último Reporte"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__write_uid
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__write_uid
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__write_uid
@@ -1809,7 +1921,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__write_date
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__write_date
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__write_date
@@ -1860,6 +1974,19 @@ msgid "Listado de Plataformas"
 msgstr ""
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_step_load.py:0
+#, python-format
+msgid "Load"
+msgstr "Carga"
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_step_load.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__fuel_loaded
+#, python-format
+msgid "Loaded"
+msgstr "Cargado"
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.device_form_view
 msgid "Location Info"
 msgstr "Posicionamiento"
@@ -1895,7 +2022,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_main_attachment_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_main_attachment_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_main_attachment_id
@@ -1923,6 +2052,13 @@ msgid "Marca"
 msgstr ""
 
 #. module: lmm
+#: code:addons/lmm/models/fuel_load_division.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__max_volume
+#, python-format
+msgid "Max volume"
+msgstr "Volumen Máximo"
+
+#. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
 #, python-format
 msgid "Mayor Accounte"
@@ -1948,7 +2084,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_error
@@ -1967,7 +2105,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_ids
@@ -1981,7 +2121,7 @@ msgstr ""
 #: code:addons/lmm/models/calibration.py:0
 #, python-format
 msgid "Method"
-msgstr "Método"
+msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
@@ -1992,6 +2132,13 @@ msgstr "Micrófono"
 #. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__microphone
 msgid "Micrófono"
+msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_load_division.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__min_volume
+#, python-format
+msgid "Min Volume"
 msgstr ""
 
 #. module: lmm
@@ -2047,7 +2194,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__my_activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__my_activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__my_activity_date_deadline
@@ -2067,7 +2216,9 @@ msgstr ""
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/calibration_results.py:0
 #: code:addons/lmm/models/fuel_characterization_detail.py:0
+#: code:addons/lmm/models/fuel_load_division.py:0
 #: code:addons/lmm/models/fuel_sensor.py:0
+#: code:addons/lmm/models/fuel_step_load.py:0
 #: code:addons/lmm/models/fuel_tank.py:0 code:addons/lmm/models/fuel_test.py:0
 #: code:addons/lmm/models/fuel_test_samples.py:0
 #: code:addons/lmm/models/vehicle.py:0
@@ -2084,7 +2235,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_calendar_event_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_calendar_event_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_calendar_event_id
@@ -2103,7 +2256,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_date_deadline
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_date_deadline
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_date_deadline
@@ -2122,7 +2277,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_summary
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_summary
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_summary
@@ -2141,7 +2298,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_type_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_type_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_type_id
@@ -2173,7 +2332,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_needaction_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_needaction_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_needaction_counter
@@ -2192,7 +2353,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_error_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_error_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_error_counter
@@ -2211,7 +2374,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_needaction_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_needaction_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_needaction_counter
@@ -2230,7 +2395,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_has_error_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_has_error_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_has_error_counter
@@ -2249,7 +2416,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_device__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__message_unread_counter
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__message_unread_counter
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__message_unread_counter
@@ -2337,7 +2506,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_account__client_id
 #, python-format
 msgid "Parent Account"
-msgstr ""
+msgstr "Cuenta Padre"
 
 #. module: lmm
 #: code:addons/lmm/models/calibration.py:0
@@ -2418,7 +2587,6 @@ msgstr ""
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_characterization.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__process_type
 #, python-format
 msgid "Process Type"
 msgstr "Tipo de Proceso"
@@ -2533,6 +2701,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__name
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__name
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__name
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__name
 msgid "Referencia Interna"
 msgstr ""
 
@@ -2574,7 +2744,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__activity_user_id
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__activity_user_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__activity_user_id
@@ -2622,7 +2794,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_has_sms_error
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_has_sms_error
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_has_sms_error
@@ -2755,7 +2929,7 @@ msgstr "Panel Solar"
 #: code:addons/lmm/models/accessory.py:0
 #, python-format
 msgid "Sold"
-msgstr ""
+msgstr "Vendido"
 
 #. module: lmm
 #: code:addons/lmm/models/device.py:0
@@ -2796,7 +2970,9 @@ msgstr "Días transcurridos"
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_device__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_state
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_state
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_state
@@ -2809,6 +2985,18 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+
+#. module: lmm
+#: code:addons/lmm/models/fuel_step_load.py:0
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__fuel_step
+#, python-format
+msgid "Step"
+msgstr "Paso"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_load_division_form_view
+msgid "Steps"
+msgstr "Pasos"
 
 #. module: lmm
 #: code:addons/lmm/models/cell_chip.py:0
@@ -2843,6 +3031,7 @@ msgid "Tanque de combustible"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__fuel_step_load_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_count
 #: model:ir.model.fields,field_description:lmm.field_lmm_vehicle__fuel_tank_ids
 msgid "Tanques de combustible"
@@ -2940,6 +3129,16 @@ msgid "The device id must be unique"
 msgstr "El ID del dispositivo debe ser único"
 
 #. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_load_division_name_unique
+msgid "The fuel load division id must be unique"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_step_load_name_unique
+msgid "The fuel load step load id must be unique"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.constraint,message:lmm.constraint_lmm_fuel_sensor_name_unique
 msgid "The fuel sensor name must be unique"
 msgstr "El ID del sensor de combustible debe ser único"
@@ -2997,6 +3196,11 @@ msgid "Tipo"
 msgstr ""
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_characterization__process_type
+msgid "Tipo de Proceso"
+msgstr ""
+
+#. module: lmm
 #: model:ir.model.fields,field_description:lmm.field_lmm_accessory__product_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__product_id
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__product_id
@@ -3037,7 +3241,9 @@ msgstr "Tipo"
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_device__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__activity_exception_decoration
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__activity_exception_decoration
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__activity_exception_decoration
@@ -3085,7 +3291,9 @@ msgstr "El número de serie de motor debe ser único"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_unread
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_unread
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_unread
@@ -3104,7 +3312,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__message_unread_counter
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__message_unread_counter
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__message_unread_counter
@@ -3213,6 +3423,11 @@ msgid "Voice"
 msgstr "Voz"
 
 #. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_calc
+msgid "Volmen 100% Calc."
+msgstr ""
+
+#. module: lmm
 #: code:addons/lmm/models/calibration.py:0
 #: code:addons/lmm/models/fuel_characterization.py:0
 #, python-format
@@ -3256,28 +3471,24 @@ msgstr "Volumen"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_calc
 #, python-format
 msgid "Volume 100% Calc."
 msgstr "Volmen 100% Calc."
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_label
 #, python-format
 msgid "Volume 100% Label"
 msgstr "Volumen 100% Etiqueta"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_calc
 #, python-format
 msgid "Volume 95% Calc."
 msgstr "Volumen 95% Calc"
 
 #. module: lmm
 #: code:addons/lmm/models/fuel_tank.py:0
-#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_label
 #, python-format
 msgid "Volume 95% Label"
 msgstr "Volumen 95% Etiqueta"
@@ -3286,6 +3497,21 @@ msgstr "Volumen 95% Etiqueta"
 #: model:ir.model.fields,field_description:lmm.field_lmm_calibration_results__volume
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__volume
 msgid "Volumen"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_total_label
+msgid "Volumen 100% Etiqueta"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_calc
+msgid "Volumen 95% Calc"
+msgstr ""
+
+#. module: lmm
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__volume_95_label
+msgid "Volumen 95% Etiqueta"
 msgstr ""
 
 #. module: lmm
@@ -3337,7 +3563,9 @@ msgstr "Términos de Garantía"
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_characterization_detail__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_device__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_load_division__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_sensor__website_message_ids
+#: model:ir.model.fields,field_description:lmm.field_lmm_fuel_step_load__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_tank__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test__website_message_ids
 #: model:ir.model.fields,field_description:lmm.field_lmm_fuel_test_samples__website_message_ids
@@ -3356,7 +3584,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmm.field_lmm_characterization__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_characterization_detail__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_device__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_load_division__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_sensor__website_message_ids
+#: model:ir.model.fields,help:lmm.field_lmm_fuel_step_load__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_tank__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test__website_message_ids
 #: model:ir.model.fields,help:lmm.field_lmm_fuel_test_samples__website_message_ids
@@ -3389,7 +3619,7 @@ msgstr "Año"
 #: code:addons/lmm/models/fuel_tank.py:0
 #, python-format
 msgid "amorphous"
-msgstr "Aformo"
+msgstr "Amorfo"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_calibration_results_form_view
@@ -3439,9 +3669,29 @@ msgid "dealer"
 msgstr "Distribuidor"
 
 #. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_load_division_form_view
+msgid "fuel_load_division Form"
+msgstr "División de carga de combustible"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_load_division_tree_view
+msgid "fuel_load_divisions Tree"
+msgstr "División de carga de combustible"
+
+#. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_sensor_tree_view
 msgid "fuel_sensors Tree"
 msgstr "Lista de Sensores de Combustible"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_form_view
+msgid "fuel_step_load Form"
+msgstr "Pasos de carga de Combustible"
+
+#. module: lmm
+#: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_step_load_tree_view
+msgid "fuel_step_loads Tree"
+msgstr "Lista de pasos de combustible"
 
 #. module: lmm
 #: model_terms:ir.ui.view,arch_db:lmm.lmm_fuel_tank_tree_view
