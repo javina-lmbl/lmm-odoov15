@@ -19,16 +19,16 @@ class FuelStepLoad(models.Model):
         string=_("Fuel Load Division"),
     )
 
-    step = fields.Integer(
+    fuel_step = fields.Integer(
         string=_("Step"),
     )
 
-    load = fields.Float(
+    fuel_load = fields.Float(
         digits=(16, 9),
         string=_('Load')
     )
 
-    loaded = fields.Float(
+    fuel_loaded = fields.Float(
         digits=(16, 9),
         string=_('Loaded')
     )

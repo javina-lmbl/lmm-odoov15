@@ -25,9 +25,9 @@
             </group>
             <group string="Details">
               <separator/>
-              <field name="step"/>
-              <field name="load"/>
-              <field name="loaded"/>
+              <field name="fuel_step"/>
+              <field name="fuel_load"/>
+              <field name="fuel_loaded"/>
             </group>
           </group>        
         </sheet>
@@ -47,9 +47,9 @@
       <search>
         <field name="name"/>
         <field name="fuel_load_division_id"/>
-        <field name="step"/>
-        <field name="load"/>
-        <field name="loaded"/>
+        <field name="fuel_step"/>
+        <field name="fuel_load"/>
+        <field name="fuel_loaded"/>
         <group expand="0" string="Group By">
           <filter
                   name="group_fuel_load_division_id"
@@ -71,9 +71,9 @@
       <tree string="fuel_step_loads Tree">
         <field name="name"/>
         <field name="fuel_load_division_id"/>
-        <field name="step"/>
-        <field name="load"/>
-        <field name="loaded"/>
+        <field name="fuel_step"/>
+        <field name="fuel_load"/>
+        <field name="fuel_loaded"/>
       </tree>
     </field>
   </record>
